@@ -74,7 +74,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(558, 354);
+            this.ClientSize = new System.Drawing.Size(558, 333);
             this.Controls.Add(this.btnReportABug);
             this.Controls.Add(this.btnOverview);
             this.Controls.Add(this.btnInput);
