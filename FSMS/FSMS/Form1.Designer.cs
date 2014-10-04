@@ -89,8 +89,11 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.tbUsername);
             this.Controls.Add(this.btnLogIn);
+            this.MaximizeBox = false;
             this.Name = "LogIn";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Log In";
             this.ResumeLayout(false);
             this.PerformLayout();
