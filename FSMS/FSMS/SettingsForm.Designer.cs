@@ -38,38 +38,38 @@
             this.tabFinance = new System.Windows.Forms.TabPage();
             this.lblTraining = new System.Windows.Forms.Label();
             this.lbTraining = new System.Windows.Forms.ListBox();
-            this.btnAddTraining = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.btnDeleteTraining = new System.Windows.Forms.Button();
+            this.btnTrainingAddTraining = new System.Windows.Forms.Button();
+            this.btnTrainingArchiveTraining = new System.Windows.Forms.Button();
+            this.btnTrainingDeleteTraining = new System.Windows.Forms.Button();
             this.gbSelectedTraining = new System.Windows.Forms.GroupBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.btnAddTheory = new System.Windows.Forms.Button();
-            this.btnDeleteTheory = new System.Windows.Forms.Button();
-            this.btnArchiveTheory = new System.Windows.Forms.Button();
+            this.lbTrainingSubjects = new System.Windows.Forms.ListBox();
+            this.btnTrainingSubjectsAddTheory = new System.Windows.Forms.Button();
+            this.btnTrainingSubjectsDeleteTheory = new System.Windows.Forms.Button();
+            this.btnTrainingSubjectsArchiveTheory = new System.Windows.Forms.Button();
             this.gbSubjects = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.tbTrainingSubjectName = new System.Windows.Forms.TextBox();
+            this.tbTrainingSubjectNumberOfClasses = new System.Windows.Forms.TextBox();
+            this.tbTrainingSubjectDescription = new System.Windows.Forms.TextBox();
+            this.tbTrainingSubjectNumberOfTests = new System.Windows.Forms.TextBox();
+            this.tbTrainingSubjectPPT = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.btnEditTheory = new System.Windows.Forms.Button();
+            this.btnTrainingSubjectsEditTheory = new System.Windows.Forms.Button();
             this.gbExercise = new System.Windows.Forms.GroupBox();
-            this.lbExercise = new System.Windows.Forms.ListBox();
-            this.btnDeleteExercise = new System.Windows.Forms.Button();
-            this.btnArchiveExercise = new System.Windows.Forms.Button();
-            this.btnAddExercise = new System.Windows.Forms.Button();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.btnEditExercise = new System.Windows.Forms.Button();
+            this.lbTrainingExerciseExercise = new System.Windows.Forms.ListBox();
+            this.btnTrainingExerciseDeleteExercise = new System.Windows.Forms.Button();
+            this.btnTrainingExerciseArchiveExercise = new System.Windows.Forms.Button();
+            this.btnTrainingExerciseAddExercise = new System.Windows.Forms.Button();
+            this.tbTrainingExerciseDescription = new System.Windows.Forms.TextBox();
+            this.tbTrainingExerciseContent = new System.Windows.Forms.TextBox();
+            this.tbTrainingExerciseOrdinalNumber = new System.Windows.Forms.TextBox();
+            this.tbTrainingExerciseTypeOfAPilot = new System.Windows.Forms.TextBox();
+            this.tbTrainingExerciseNumberOfFlights = new System.Windows.Forms.TextBox();
+            this.tbTrainingExerciseDuration = new System.Windows.Forms.TextBox();
+            this.btnTrainingExerciseEditExercise = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -77,29 +77,29 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.gbSelectedTopic = new System.Windows.Forms.GroupBox();
-            this.lbSubjects = new System.Windows.Forms.ListBox();
-            this.btnDeleteTopic = new System.Windows.Forms.Button();
-            this.btnArchiveTopic = new System.Windows.Forms.Button();
-            this.btnAddTopic = new System.Windows.Forms.Button();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.lbTrainingSelectedTopicSubjects = new System.Windows.Forms.ListBox();
+            this.btnTrainingSelectedTopicDeleteTopic = new System.Windows.Forms.Button();
+            this.btnTrainingSelectedTopicArchiveTopic = new System.Windows.Forms.Button();
+            this.btnTrainingSelectedTopicAddTopic = new System.Windows.Forms.Button();
+            this.tbTrainingSelectedTopicName = new System.Windows.Forms.TextBox();
+            this.tbTrainingSelectedTopicDescription = new System.Windows.Forms.TextBox();
+            this.tbTrainingSelectedTopicOrdinalNumber = new System.Windows.Forms.TextBox();
+            this.tbTrainingSelectedTopicNumberOfClasses = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.btnEditTopic = new System.Windows.Forms.Button();
-            this.lbStudent = new System.Windows.Forms.ListBox();
-            this.btnAddStudent = new System.Windows.Forms.Button();
-            this.btnDeleteStudent = new System.Windows.Forms.Button();
+            this.btnTrainingSelectedTopicEditTopic = new System.Windows.Forms.Button();
+            this.lbStudentListOfStudents = new System.Windows.Forms.ListBox();
+            this.btnStudentAddStudent = new System.Windows.Forms.Button();
+            this.btnStudentDeleteStudent = new System.Windows.Forms.Button();
             this.pbStudent = new System.Windows.Forms.PictureBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.btnEditStudent = new System.Windows.Forms.Button();
+            this.tbStudentName = new System.Windows.Forms.TextBox();
+            this.tbStudentSocialNumber = new System.Windows.Forms.TextBox();
+            this.tbStudentAdress = new System.Windows.Forms.TextBox();
+            this.tbStudentPhoneNumber = new System.Windows.Forms.TextBox();
+            this.tbStudentEMail = new System.Windows.Forms.TextBox();
+            this.btnStudentEditStudent = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
@@ -107,10 +107,10 @@
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.btnArchiveGroup = new System.Windows.Forms.Button();
-            this.btnAddGroup = new System.Windows.Forms.Button();
+            this.btnGroupArchiveGroup = new System.Windows.Forms.Button();
+            this.btnGroupAddGroup = new System.Windows.Forms.Button();
             this.lbGroupes = new System.Windows.Forms.ListBox();
-            this.btnDeleteGroup = new System.Windows.Forms.Button();
+            this.btnGroupDeleteGroup = new System.Windows.Forms.Button();
             this.lblGroupsTraining = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
@@ -121,46 +121,98 @@
             this.rbtnTheretical = new System.Windows.Forms.RadioButton();
             this.label26 = new System.Windows.Forms.Label();
             this.lbGroupsStudents = new System.Windows.Forms.ListBox();
-            this.btnAddStudentSettings = new System.Windows.Forms.Button();
-            this.btnDeleteStudentSettings = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnGroupAddStudentSettings = new System.Windows.Forms.Button();
+            this.btnGroupDeleteStudentSettings = new System.Windows.Forms.Button();
+            this.btnEmployeeDeleteGroup = new System.Windows.Forms.Button();
             this.label27 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnEmployeeArchiveGroup = new System.Windows.Forms.Button();
+            this.btnEmployeeAddGroup = new System.Windows.Forms.Button();
+            this.lbEmployeeListOfGroups = new System.Windows.Forms.ListBox();
+            this.pbEmployee = new System.Windows.Forms.PictureBox();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.tbEmployeeEMial = new System.Windows.Forms.TextBox();
+            this.tbEmployeePhoneNumber = new System.Windows.Forms.TextBox();
+            this.tbEmployeeAdress = new System.Windows.Forms.TextBox();
+            this.tbEmployeeSocialNumber = new System.Windows.Forms.TextBox();
+            this.tbEmployeeName = new System.Windows.Forms.TextBox();
             this.label33 = new System.Windows.Forms.Label();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.listBox3 = new System.Windows.Forms.ListBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.tbEmployeeSchool = new System.Windows.Forms.TextBox();
+            this.lbLicencedSubjects = new System.Windows.Forms.ListBox();
+            this.btnEmployeeAuthorize = new System.Windows.Forms.Button();
+            this.btnEmployeeDeauthorize = new System.Windows.Forms.Button();
             this.label34 = new System.Windows.Forms.Label();
             this.gbExistingUsers = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.gbAddUser = new System.Windows.Forms.GroupBox();
+            this.lbUsersAdminList = new System.Windows.Forms.ListBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.tbUsersUsername = new System.Windows.Forms.TextBox();
+            this.tbUsersPassword = new System.Windows.Forms.TextBox();
+            this.btnUserEdit = new System.Windows.Forms.Button();
+            this.btnUserDelete = new System.Windows.Forms.Button();
+            this.cbUserAddUserAccessLevel = new System.Windows.Forms.ComboBox();
+            this.tbUserAddUserPassword = new System.Windows.Forms.TextBox();
+            this.tbUserAddUserUsername = new System.Windows.Forms.TextBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.btnUserAdd = new System.Windows.Forms.Button();
+            this.lbAirplaneType = new System.Windows.Forms.ListBox();
+            this.btnAddAirplaneType = new System.Windows.Forms.Button();
+            this.btnAirplaneTypeDelete = new System.Windows.Forms.Button();
+            this.lbAirplaneList = new System.Windows.Forms.ListBox();
+            this.btnAirplane = new System.Windows.Forms.Button();
+            this.btnDeleteAirplane = new System.Windows.Forms.Button();
+            this.btnArchiveAirplane = new System.Windows.Forms.Button();
+            this.tbAirplaneName = new System.Windows.Forms.TextBox();
+            this.tbAirplaneRegistration = new System.Windows.Forms.TextBox();
+            this.cbAirplaneType = new System.Windows.Forms.ComboBox();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.btnEditAirplane = new System.Windows.Forms.Button();
+            this.gbAirplane = new System.Windows.Forms.GroupBox();
+            this.gbAirplaneType = new System.Windows.Forms.GroupBox();
+            this.gbAirport = new System.Windows.Forms.GroupBox();
+            this.lbAirport = new System.Windows.Forms.ListBox();
+            this.btnAddAirport = new System.Windows.Forms.Button();
+            this.btnDeleteAirport = new System.Windows.Forms.Button();
+            this.btnArchiveAirport = new System.Windows.Forms.Button();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.tbAirportName = new System.Windows.Forms.TextBox();
+            this.tbAirportCity = new System.Windows.Forms.TextBox();
+            this.tbAirportCode = new System.Windows.Forms.TextBox();
+            this.gbPermission = new System.Windows.Forms.GroupBox();
+            this.button7 = new System.Windows.Forms.Button();
+            this.lbPermission = new System.Windows.Forms.ListBox();
+            this.button8 = new System.Windows.Forms.Button();
+            this.cbUserAccessLevel = new System.Windows.Forms.ComboBox();
             this.tabControl1.SuspendLayout();
             this.tabTraining.SuspendLayout();
             this.tabStudent.SuspendLayout();
             this.tabGroups.SuspendLayout();
             this.tabEmployee.SuspendLayout();
             this.tabUsers.SuspendLayout();
+            this.tabAirplanesAndAirports.SuspendLayout();
             this.gbSelectedTraining.SuspendLayout();
             this.gbSubjects.SuspendLayout();
             this.gbExercise.SuspendLayout();
             this.gbSelectedTopic.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbStudent)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEmployee)).BeginInit();
             this.gbExistingUsers.SuspendLayout();
+            this.gbAddUser.SuspendLayout();
+            this.gbAirplane.SuspendLayout();
+            this.gbAirplaneType.SuspendLayout();
+            this.gbAirport.SuspendLayout();
+            this.gbPermission.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -182,9 +234,9 @@
             // 
             this.tabTraining.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.tabTraining.Controls.Add(this.gbSelectedTraining);
-            this.tabTraining.Controls.Add(this.btnDeleteTraining);
-            this.tabTraining.Controls.Add(this.button2);
-            this.tabTraining.Controls.Add(this.btnAddTraining);
+            this.tabTraining.Controls.Add(this.btnTrainingDeleteTraining);
+            this.tabTraining.Controls.Add(this.btnTrainingArchiveTraining);
+            this.tabTraining.Controls.Add(this.btnTrainingAddTraining);
             this.tabTraining.Controls.Add(this.lbTraining);
             this.tabTraining.Controls.Add(this.lblTraining);
             this.tabTraining.Location = new System.Drawing.Point(4, 29);
@@ -204,16 +256,16 @@
             this.tabStudent.Controls.Add(this.label18);
             this.tabStudent.Controls.Add(this.label17);
             this.tabStudent.Controls.Add(this.label16);
-            this.tabStudent.Controls.Add(this.btnEditStudent);
-            this.tabStudent.Controls.Add(this.textBox20);
-            this.tabStudent.Controls.Add(this.textBox19);
-            this.tabStudent.Controls.Add(this.textBox18);
-            this.tabStudent.Controls.Add(this.textBox17);
-            this.tabStudent.Controls.Add(this.textBox16);
+            this.tabStudent.Controls.Add(this.btnStudentEditStudent);
+            this.tabStudent.Controls.Add(this.tbStudentEMail);
+            this.tabStudent.Controls.Add(this.tbStudentPhoneNumber);
+            this.tabStudent.Controls.Add(this.tbStudentAdress);
+            this.tabStudent.Controls.Add(this.tbStudentSocialNumber);
+            this.tabStudent.Controls.Add(this.tbStudentName);
             this.tabStudent.Controls.Add(this.pbStudent);
-            this.tabStudent.Controls.Add(this.btnDeleteStudent);
-            this.tabStudent.Controls.Add(this.btnAddStudent);
-            this.tabStudent.Controls.Add(this.lbStudent);
+            this.tabStudent.Controls.Add(this.btnStudentDeleteStudent);
+            this.tabStudent.Controls.Add(this.btnStudentAddStudent);
+            this.tabStudent.Controls.Add(this.lbStudentListOfStudents);
             this.tabStudent.Location = new System.Drawing.Point(4, 29);
             this.tabStudent.Name = "tabStudent";
             this.tabStudent.Padding = new System.Windows.Forms.Padding(3);
@@ -225,8 +277,8 @@
             // tabGroups
             // 
             this.tabGroups.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tabGroups.Controls.Add(this.btnDeleteStudentSettings);
-            this.tabGroups.Controls.Add(this.btnAddStudentSettings);
+            this.tabGroups.Controls.Add(this.btnGroupDeleteStudentSettings);
+            this.tabGroups.Controls.Add(this.btnGroupAddStudentSettings);
             this.tabGroups.Controls.Add(this.lbGroupsStudents);
             this.tabGroups.Controls.Add(this.label26);
             this.tabGroups.Controls.Add(this.rbtnTheretical);
@@ -237,10 +289,10 @@
             this.tabGroups.Controls.Add(this.label24);
             this.tabGroups.Controls.Add(this.label23);
             this.tabGroups.Controls.Add(this.lblGroupsTraining);
-            this.tabGroups.Controls.Add(this.btnDeleteGroup);
+            this.tabGroups.Controls.Add(this.btnGroupDeleteGroup);
             this.tabGroups.Controls.Add(this.label22);
-            this.tabGroups.Controls.Add(this.btnArchiveGroup);
-            this.tabGroups.Controls.Add(this.btnAddGroup);
+            this.tabGroups.Controls.Add(this.btnGroupArchiveGroup);
+            this.tabGroups.Controls.Add(this.btnGroupAddGroup);
             this.tabGroups.Controls.Add(this.lbGroupes);
             this.tabGroups.Location = new System.Drawing.Point(4, 29);
             this.tabGroups.Name = "tabGroups";
@@ -253,27 +305,27 @@
             // 
             this.tabEmployee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.tabEmployee.Controls.Add(this.label34);
-            this.tabEmployee.Controls.Add(this.button6);
-            this.tabEmployee.Controls.Add(this.button5);
-            this.tabEmployee.Controls.Add(this.listBox3);
-            this.tabEmployee.Controls.Add(this.textBox26);
+            this.tabEmployee.Controls.Add(this.btnEmployeeDeauthorize);
+            this.tabEmployee.Controls.Add(this.btnEmployeeAuthorize);
+            this.tabEmployee.Controls.Add(this.lbLicencedSubjects);
+            this.tabEmployee.Controls.Add(this.tbEmployeeSchool);
             this.tabEmployee.Controls.Add(this.label33);
             this.tabEmployee.Controls.Add(this.label28);
             this.tabEmployee.Controls.Add(this.label29);
             this.tabEmployee.Controls.Add(this.label30);
             this.tabEmployee.Controls.Add(this.label31);
             this.tabEmployee.Controls.Add(this.label32);
-            this.tabEmployee.Controls.Add(this.textBox21);
-            this.tabEmployee.Controls.Add(this.textBox22);
-            this.tabEmployee.Controls.Add(this.textBox23);
-            this.tabEmployee.Controls.Add(this.textBox24);
-            this.tabEmployee.Controls.Add(this.textBox25);
-            this.tabEmployee.Controls.Add(this.pictureBox1);
-            this.tabEmployee.Controls.Add(this.button1);
+            this.tabEmployee.Controls.Add(this.tbEmployeeEMial);
+            this.tabEmployee.Controls.Add(this.tbEmployeePhoneNumber);
+            this.tabEmployee.Controls.Add(this.tbEmployeeAdress);
+            this.tabEmployee.Controls.Add(this.tbEmployeeSocialNumber);
+            this.tabEmployee.Controls.Add(this.tbEmployeeName);
+            this.tabEmployee.Controls.Add(this.pbEmployee);
+            this.tabEmployee.Controls.Add(this.btnEmployeeDeleteGroup);
             this.tabEmployee.Controls.Add(this.label27);
-            this.tabEmployee.Controls.Add(this.button3);
-            this.tabEmployee.Controls.Add(this.button4);
-            this.tabEmployee.Controls.Add(this.listBox2);
+            this.tabEmployee.Controls.Add(this.btnEmployeeArchiveGroup);
+            this.tabEmployee.Controls.Add(this.btnEmployeeAddGroup);
+            this.tabEmployee.Controls.Add(this.lbEmployeeListOfGroups);
             this.tabEmployee.Location = new System.Drawing.Point(4, 29);
             this.tabEmployee.Name = "tabEmployee";
             this.tabEmployee.Size = new System.Drawing.Size(1219, 851);
@@ -284,7 +336,7 @@
             // tabUsers
             // 
             this.tabUsers.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tabUsers.Controls.Add(this.groupBox2);
+            this.tabUsers.Controls.Add(this.gbAddUser);
             this.tabUsers.Controls.Add(this.gbExistingUsers);
             this.tabUsers.Location = new System.Drawing.Point(4, 29);
             this.tabUsers.Name = "tabUsers";
@@ -296,9 +348,13 @@
             // tabAirplanesAndAirports
             // 
             this.tabAirplanesAndAirports.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabAirplanesAndAirports.Controls.Add(this.gbPermission);
+            this.tabAirplanesAndAirports.Controls.Add(this.gbAirport);
+            this.tabAirplanesAndAirports.Controls.Add(this.gbAirplaneType);
+            this.tabAirplanesAndAirports.Controls.Add(this.gbAirplane);
             this.tabAirplanesAndAirports.Location = new System.Drawing.Point(4, 29);
             this.tabAirplanesAndAirports.Name = "tabAirplanesAndAirports";
-            this.tabAirplanesAndAirports.Size = new System.Drawing.Size(1197, 751);
+            this.tabAirplanesAndAirports.Size = new System.Drawing.Size(1219, 851);
             this.tabAirplanesAndAirports.TabIndex = 5;
             this.tabAirplanesAndAirports.Text = "Airplanes and airports";
             this.tabAirplanesAndAirports.UseVisualStyleBackColor = true;
@@ -331,32 +387,32 @@
             this.lbTraining.Size = new System.Drawing.Size(141, 264);
             this.lbTraining.TabIndex = 1;
             // 
-            // btnAddTraining
+            // btnTrainingAddTraining
             // 
-            this.btnAddTraining.Location = new System.Drawing.Point(27, 337);
-            this.btnAddTraining.Name = "btnAddTraining";
-            this.btnAddTraining.Size = new System.Drawing.Size(141, 38);
-            this.btnAddTraining.TabIndex = 2;
-            this.btnAddTraining.Text = "Add training";
-            this.btnAddTraining.UseVisualStyleBackColor = true;
+            this.btnTrainingAddTraining.Location = new System.Drawing.Point(27, 337);
+            this.btnTrainingAddTraining.Name = "btnTrainingAddTraining";
+            this.btnTrainingAddTraining.Size = new System.Drawing.Size(141, 38);
+            this.btnTrainingAddTraining.TabIndex = 2;
+            this.btnTrainingAddTraining.Text = "Add training";
+            this.btnTrainingAddTraining.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnTrainingArchiveTraining
             // 
-            this.button2.Location = new System.Drawing.Point(27, 381);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(141, 38);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Archive Training";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnTrainingArchiveTraining.Location = new System.Drawing.Point(27, 381);
+            this.btnTrainingArchiveTraining.Name = "btnTrainingArchiveTraining";
+            this.btnTrainingArchiveTraining.Size = new System.Drawing.Size(141, 38);
+            this.btnTrainingArchiveTraining.TabIndex = 3;
+            this.btnTrainingArchiveTraining.Text = "Archive Training";
+            this.btnTrainingArchiveTraining.UseVisualStyleBackColor = true;
             // 
-            // btnDeleteTraining
+            // btnTrainingDeleteTraining
             // 
-            this.btnDeleteTraining.Location = new System.Drawing.Point(27, 426);
-            this.btnDeleteTraining.Name = "btnDeleteTraining";
-            this.btnDeleteTraining.Size = new System.Drawing.Size(141, 38);
-            this.btnDeleteTraining.TabIndex = 4;
-            this.btnDeleteTraining.Text = "Delete Training";
-            this.btnDeleteTraining.UseVisualStyleBackColor = true;
+            this.btnTrainingDeleteTraining.Location = new System.Drawing.Point(27, 426);
+            this.btnTrainingDeleteTraining.Name = "btnTrainingDeleteTraining";
+            this.btnTrainingDeleteTraining.Size = new System.Drawing.Size(141, 38);
+            this.btnTrainingDeleteTraining.TabIndex = 4;
+            this.btnTrainingDeleteTraining.Text = "Delete Training";
+            this.btnTrainingDeleteTraining.UseVisualStyleBackColor = true;
             // 
             // gbSelectedTraining
             // 
@@ -370,59 +426,59 @@
             this.gbSelectedTraining.TabStop = false;
             this.gbSelectedTraining.Text = "Selected Training";
             // 
-            // listBox1
+            // lbTrainingSubjects
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(24, 33);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(141, 264);
-            this.listBox1.TabIndex = 1;
+            this.lbTrainingSubjects.FormattingEnabled = true;
+            this.lbTrainingSubjects.ItemHeight = 20;
+            this.lbTrainingSubjects.Location = new System.Drawing.Point(24, 33);
+            this.lbTrainingSubjects.Name = "lbTrainingSubjects";
+            this.lbTrainingSubjects.Size = new System.Drawing.Size(141, 264);
+            this.lbTrainingSubjects.TabIndex = 1;
             // 
-            // btnAddTheory
+            // btnTrainingSubjectsAddTheory
             // 
-            this.btnAddTheory.Location = new System.Drawing.Point(24, 312);
-            this.btnAddTheory.Name = "btnAddTheory";
-            this.btnAddTheory.Size = new System.Drawing.Size(141, 38);
-            this.btnAddTheory.TabIndex = 2;
-            this.btnAddTheory.Text = "Add Theory";
-            this.btnAddTheory.UseVisualStyleBackColor = true;
+            this.btnTrainingSubjectsAddTheory.Location = new System.Drawing.Point(24, 312);
+            this.btnTrainingSubjectsAddTheory.Name = "btnTrainingSubjectsAddTheory";
+            this.btnTrainingSubjectsAddTheory.Size = new System.Drawing.Size(141, 38);
+            this.btnTrainingSubjectsAddTheory.TabIndex = 2;
+            this.btnTrainingSubjectsAddTheory.Text = "Add Theory";
+            this.btnTrainingSubjectsAddTheory.UseVisualStyleBackColor = true;
             // 
-            // btnDeleteTheory
+            // btnTrainingSubjectsDeleteTheory
             // 
-            this.btnDeleteTheory.Location = new System.Drawing.Point(24, 401);
-            this.btnDeleteTheory.Name = "btnDeleteTheory";
-            this.btnDeleteTheory.Size = new System.Drawing.Size(141, 38);
-            this.btnDeleteTheory.TabIndex = 3;
-            this.btnDeleteTheory.Text = "Delete Theory";
-            this.btnDeleteTheory.UseVisualStyleBackColor = true;
+            this.btnTrainingSubjectsDeleteTheory.Location = new System.Drawing.Point(24, 401);
+            this.btnTrainingSubjectsDeleteTheory.Name = "btnTrainingSubjectsDeleteTheory";
+            this.btnTrainingSubjectsDeleteTheory.Size = new System.Drawing.Size(141, 38);
+            this.btnTrainingSubjectsDeleteTheory.TabIndex = 3;
+            this.btnTrainingSubjectsDeleteTheory.Text = "Delete Theory";
+            this.btnTrainingSubjectsDeleteTheory.UseVisualStyleBackColor = true;
             // 
-            // btnArchiveTheory
+            // btnTrainingSubjectsArchiveTheory
             // 
-            this.btnArchiveTheory.Location = new System.Drawing.Point(24, 357);
-            this.btnArchiveTheory.Name = "btnArchiveTheory";
-            this.btnArchiveTheory.Size = new System.Drawing.Size(141, 38);
-            this.btnArchiveTheory.TabIndex = 4;
-            this.btnArchiveTheory.Text = "Archive Theory";
-            this.btnArchiveTheory.UseVisualStyleBackColor = true;
+            this.btnTrainingSubjectsArchiveTheory.Location = new System.Drawing.Point(24, 357);
+            this.btnTrainingSubjectsArchiveTheory.Name = "btnTrainingSubjectsArchiveTheory";
+            this.btnTrainingSubjectsArchiveTheory.Size = new System.Drawing.Size(141, 38);
+            this.btnTrainingSubjectsArchiveTheory.TabIndex = 4;
+            this.btnTrainingSubjectsArchiveTheory.Text = "Archive Theory";
+            this.btnTrainingSubjectsArchiveTheory.UseVisualStyleBackColor = true;
             // 
             // gbSubjects
             // 
-            this.gbSubjects.Controls.Add(this.btnEditTheory);
+            this.gbSubjects.Controls.Add(this.btnTrainingSubjectsEditTheory);
             this.gbSubjects.Controls.Add(this.label5);
             this.gbSubjects.Controls.Add(this.label4);
             this.gbSubjects.Controls.Add(this.label3);
             this.gbSubjects.Controls.Add(this.label2);
             this.gbSubjects.Controls.Add(this.label1);
-            this.gbSubjects.Controls.Add(this.textBox5);
-            this.gbSubjects.Controls.Add(this.textBox4);
-            this.gbSubjects.Controls.Add(this.textBox3);
-            this.gbSubjects.Controls.Add(this.textBox2);
-            this.gbSubjects.Controls.Add(this.textBox1);
-            this.gbSubjects.Controls.Add(this.listBox1);
-            this.gbSubjects.Controls.Add(this.btnArchiveTheory);
-            this.gbSubjects.Controls.Add(this.btnDeleteTheory);
-            this.gbSubjects.Controls.Add(this.btnAddTheory);
+            this.gbSubjects.Controls.Add(this.tbTrainingSubjectPPT);
+            this.gbSubjects.Controls.Add(this.tbTrainingSubjectNumberOfTests);
+            this.gbSubjects.Controls.Add(this.tbTrainingSubjectDescription);
+            this.gbSubjects.Controls.Add(this.tbTrainingSubjectNumberOfClasses);
+            this.gbSubjects.Controls.Add(this.tbTrainingSubjectName);
+            this.gbSubjects.Controls.Add(this.lbTrainingSubjects);
+            this.gbSubjects.Controls.Add(this.btnTrainingSubjectsArchiveTheory);
+            this.gbSubjects.Controls.Add(this.btnTrainingSubjectsDeleteTheory);
+            this.gbSubjects.Controls.Add(this.btnTrainingSubjectsAddTheory);
             this.gbSubjects.Location = new System.Drawing.Point(48, 37);
             this.gbSubjects.Name = "gbSubjects";
             this.gbSubjects.Size = new System.Drawing.Size(393, 466);
@@ -430,40 +486,40 @@
             this.gbSubjects.TabStop = false;
             this.gbSubjects.Text = "Subjects";
             // 
-            // textBox1
+            // tbTrainingSubjectName
             // 
-            this.textBox1.Location = new System.Drawing.Point(210, 54);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(154, 26);
-            this.textBox1.TabIndex = 5;
+            this.tbTrainingSubjectName.Location = new System.Drawing.Point(210, 54);
+            this.tbTrainingSubjectName.Name = "tbTrainingSubjectName";
+            this.tbTrainingSubjectName.Size = new System.Drawing.Size(154, 26);
+            this.tbTrainingSubjectName.TabIndex = 5;
             // 
-            // textBox2
+            // tbTrainingSubjectNumberOfClasses
             // 
-            this.textBox2.Location = new System.Drawing.Point(210, 105);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(154, 26);
-            this.textBox2.TabIndex = 6;
+            this.tbTrainingSubjectNumberOfClasses.Location = new System.Drawing.Point(210, 105);
+            this.tbTrainingSubjectNumberOfClasses.Name = "tbTrainingSubjectNumberOfClasses";
+            this.tbTrainingSubjectNumberOfClasses.Size = new System.Drawing.Size(154, 26);
+            this.tbTrainingSubjectNumberOfClasses.TabIndex = 6;
             // 
-            // textBox3
+            // tbTrainingSubjectDescription
             // 
-            this.textBox3.Location = new System.Drawing.Point(210, 159);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(154, 26);
-            this.textBox3.TabIndex = 7;
+            this.tbTrainingSubjectDescription.Location = new System.Drawing.Point(210, 159);
+            this.tbTrainingSubjectDescription.Name = "tbTrainingSubjectDescription";
+            this.tbTrainingSubjectDescription.Size = new System.Drawing.Size(154, 26);
+            this.tbTrainingSubjectDescription.TabIndex = 7;
             // 
-            // textBox4
+            // tbTrainingSubjectNumberOfTests
             // 
-            this.textBox4.Location = new System.Drawing.Point(210, 210);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(154, 26);
-            this.textBox4.TabIndex = 8;
+            this.tbTrainingSubjectNumberOfTests.Location = new System.Drawing.Point(210, 210);
+            this.tbTrainingSubjectNumberOfTests.Name = "tbTrainingSubjectNumberOfTests";
+            this.tbTrainingSubjectNumberOfTests.Size = new System.Drawing.Size(154, 26);
+            this.tbTrainingSubjectNumberOfTests.TabIndex = 8;
             // 
-            // textBox5
+            // tbTrainingSubjectPPT
             // 
-            this.textBox5.Location = new System.Drawing.Point(210, 263);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(154, 26);
-            this.textBox5.TabIndex = 9;
+            this.tbTrainingSubjectPPT.Location = new System.Drawing.Point(210, 263);
+            this.tbTrainingSubjectPPT.Name = "tbTrainingSubjectPPT";
+            this.tbTrainingSubjectPPT.Size = new System.Drawing.Size(154, 26);
+            this.tbTrainingSubjectPPT.TabIndex = 9;
             // 
             // label1
             // 
@@ -510,14 +566,14 @@
             this.label5.TabIndex = 14;
             this.label5.Text = "PPT";
             // 
-            // btnEditTheory
+            // btnTrainingSubjectsEditTheory
             // 
-            this.btnEditTheory.Location = new System.Drawing.Point(210, 312);
-            this.btnEditTheory.Name = "btnEditTheory";
-            this.btnEditTheory.Size = new System.Drawing.Size(154, 38);
-            this.btnEditTheory.TabIndex = 15;
-            this.btnEditTheory.Text = "Edit Theory";
-            this.btnEditTheory.UseVisualStyleBackColor = true;
+            this.btnTrainingSubjectsEditTheory.Location = new System.Drawing.Point(210, 312);
+            this.btnTrainingSubjectsEditTheory.Name = "btnTrainingSubjectsEditTheory";
+            this.btnTrainingSubjectsEditTheory.Size = new System.Drawing.Size(154, 38);
+            this.btnTrainingSubjectsEditTheory.TabIndex = 15;
+            this.btnTrainingSubjectsEditTheory.Text = "Edit Theory";
+            this.btnTrainingSubjectsEditTheory.UseVisualStyleBackColor = true;
             // 
             // gbExercise
             // 
@@ -527,17 +583,17 @@
             this.gbExercise.Controls.Add(this.label8);
             this.gbExercise.Controls.Add(this.label7);
             this.gbExercise.Controls.Add(this.label6);
-            this.gbExercise.Controls.Add(this.btnEditExercise);
-            this.gbExercise.Controls.Add(this.textBox11);
-            this.gbExercise.Controls.Add(this.textBox10);
-            this.gbExercise.Controls.Add(this.textBox9);
-            this.gbExercise.Controls.Add(this.textBox8);
-            this.gbExercise.Controls.Add(this.textBox7);
-            this.gbExercise.Controls.Add(this.textBox6);
-            this.gbExercise.Controls.Add(this.btnAddExercise);
-            this.gbExercise.Controls.Add(this.btnArchiveExercise);
-            this.gbExercise.Controls.Add(this.btnDeleteExercise);
-            this.gbExercise.Controls.Add(this.lbExercise);
+            this.gbExercise.Controls.Add(this.btnTrainingExerciseEditExercise);
+            this.gbExercise.Controls.Add(this.tbTrainingExerciseDuration);
+            this.gbExercise.Controls.Add(this.tbTrainingExerciseNumberOfFlights);
+            this.gbExercise.Controls.Add(this.tbTrainingExerciseTypeOfAPilot);
+            this.gbExercise.Controls.Add(this.tbTrainingExerciseOrdinalNumber);
+            this.gbExercise.Controls.Add(this.tbTrainingExerciseContent);
+            this.gbExercise.Controls.Add(this.tbTrainingExerciseDescription);
+            this.gbExercise.Controls.Add(this.btnTrainingExerciseAddExercise);
+            this.gbExercise.Controls.Add(this.btnTrainingExerciseArchiveExercise);
+            this.gbExercise.Controls.Add(this.btnTrainingExerciseDeleteExercise);
+            this.gbExercise.Controls.Add(this.lbTrainingExerciseExercise);
             this.gbExercise.Location = new System.Drawing.Point(487, 37);
             this.gbExercise.Name = "gbExercise";
             this.gbExercise.Size = new System.Drawing.Size(393, 466);
@@ -545,92 +601,92 @@
             this.gbExercise.TabStop = false;
             this.gbExercise.Text = "Exercise";
             // 
-            // lbExercise
+            // lbTrainingExerciseExercise
             // 
-            this.lbExercise.FormattingEnabled = true;
-            this.lbExercise.ItemHeight = 20;
-            this.lbExercise.Location = new System.Drawing.Point(22, 33);
-            this.lbExercise.Name = "lbExercise";
-            this.lbExercise.Size = new System.Drawing.Size(141, 264);
-            this.lbExercise.TabIndex = 0;
+            this.lbTrainingExerciseExercise.FormattingEnabled = true;
+            this.lbTrainingExerciseExercise.ItemHeight = 20;
+            this.lbTrainingExerciseExercise.Location = new System.Drawing.Point(22, 33);
+            this.lbTrainingExerciseExercise.Name = "lbTrainingExerciseExercise";
+            this.lbTrainingExerciseExercise.Size = new System.Drawing.Size(141, 264);
+            this.lbTrainingExerciseExercise.TabIndex = 0;
             // 
-            // btnDeleteExercise
+            // btnTrainingExerciseDeleteExercise
             // 
-            this.btnDeleteExercise.Location = new System.Drawing.Point(22, 401);
-            this.btnDeleteExercise.Name = "btnDeleteExercise";
-            this.btnDeleteExercise.Size = new System.Drawing.Size(141, 38);
-            this.btnDeleteExercise.TabIndex = 3;
-            this.btnDeleteExercise.Text = "Delete Exercise";
-            this.btnDeleteExercise.UseVisualStyleBackColor = true;
+            this.btnTrainingExerciseDeleteExercise.Location = new System.Drawing.Point(22, 401);
+            this.btnTrainingExerciseDeleteExercise.Name = "btnTrainingExerciseDeleteExercise";
+            this.btnTrainingExerciseDeleteExercise.Size = new System.Drawing.Size(141, 38);
+            this.btnTrainingExerciseDeleteExercise.TabIndex = 3;
+            this.btnTrainingExerciseDeleteExercise.Text = "Delete Exercise";
+            this.btnTrainingExerciseDeleteExercise.UseVisualStyleBackColor = true;
             // 
-            // btnArchiveExercise
+            // btnTrainingExerciseArchiveExercise
             // 
-            this.btnArchiveExercise.Location = new System.Drawing.Point(22, 357);
-            this.btnArchiveExercise.Name = "btnArchiveExercise";
-            this.btnArchiveExercise.Size = new System.Drawing.Size(141, 38);
-            this.btnArchiveExercise.TabIndex = 4;
-            this.btnArchiveExercise.Text = "Archive Exercise";
-            this.btnArchiveExercise.UseVisualStyleBackColor = true;
+            this.btnTrainingExerciseArchiveExercise.Location = new System.Drawing.Point(22, 357);
+            this.btnTrainingExerciseArchiveExercise.Name = "btnTrainingExerciseArchiveExercise";
+            this.btnTrainingExerciseArchiveExercise.Size = new System.Drawing.Size(141, 38);
+            this.btnTrainingExerciseArchiveExercise.TabIndex = 4;
+            this.btnTrainingExerciseArchiveExercise.Text = "Archive Exercise";
+            this.btnTrainingExerciseArchiveExercise.UseVisualStyleBackColor = true;
             // 
-            // btnAddExercise
+            // btnTrainingExerciseAddExercise
             // 
-            this.btnAddExercise.Location = new System.Drawing.Point(22, 312);
-            this.btnAddExercise.Name = "btnAddExercise";
-            this.btnAddExercise.Size = new System.Drawing.Size(141, 38);
-            this.btnAddExercise.TabIndex = 5;
-            this.btnAddExercise.Text = "Add Exercise";
-            this.btnAddExercise.UseVisualStyleBackColor = true;
+            this.btnTrainingExerciseAddExercise.Location = new System.Drawing.Point(22, 312);
+            this.btnTrainingExerciseAddExercise.Name = "btnTrainingExerciseAddExercise";
+            this.btnTrainingExerciseAddExercise.Size = new System.Drawing.Size(141, 38);
+            this.btnTrainingExerciseAddExercise.TabIndex = 5;
+            this.btnTrainingExerciseAddExercise.Text = "Add Exercise";
+            this.btnTrainingExerciseAddExercise.UseVisualStyleBackColor = true;
             // 
-            // textBox6
+            // tbTrainingExerciseDescription
             // 
-            this.textBox6.Location = new System.Drawing.Point(193, 159);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(154, 26);
-            this.textBox6.TabIndex = 6;
+            this.tbTrainingExerciseDescription.Location = new System.Drawing.Point(193, 159);
+            this.tbTrainingExerciseDescription.Name = "tbTrainingExerciseDescription";
+            this.tbTrainingExerciseDescription.Size = new System.Drawing.Size(154, 26);
+            this.tbTrainingExerciseDescription.TabIndex = 6;
             // 
-            // textBox7
+            // tbTrainingExerciseContent
             // 
-            this.textBox7.Location = new System.Drawing.Point(193, 105);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(154, 26);
-            this.textBox7.TabIndex = 7;
+            this.tbTrainingExerciseContent.Location = new System.Drawing.Point(193, 105);
+            this.tbTrainingExerciseContent.Name = "tbTrainingExerciseContent";
+            this.tbTrainingExerciseContent.Size = new System.Drawing.Size(154, 26);
+            this.tbTrainingExerciseContent.TabIndex = 7;
             // 
-            // textBox8
+            // tbTrainingExerciseOrdinalNumber
             // 
-            this.textBox8.Location = new System.Drawing.Point(193, 54);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(154, 26);
-            this.textBox8.TabIndex = 8;
+            this.tbTrainingExerciseOrdinalNumber.Location = new System.Drawing.Point(193, 54);
+            this.tbTrainingExerciseOrdinalNumber.Name = "tbTrainingExerciseOrdinalNumber";
+            this.tbTrainingExerciseOrdinalNumber.Size = new System.Drawing.Size(154, 26);
+            this.tbTrainingExerciseOrdinalNumber.TabIndex = 8;
             // 
-            // textBox9
+            // tbTrainingExerciseTypeOfAPilot
             // 
-            this.textBox9.Location = new System.Drawing.Point(193, 210);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(154, 26);
-            this.textBox9.TabIndex = 9;
+            this.tbTrainingExerciseTypeOfAPilot.Location = new System.Drawing.Point(193, 210);
+            this.tbTrainingExerciseTypeOfAPilot.Name = "tbTrainingExerciseTypeOfAPilot";
+            this.tbTrainingExerciseTypeOfAPilot.Size = new System.Drawing.Size(154, 26);
+            this.tbTrainingExerciseTypeOfAPilot.TabIndex = 9;
             // 
-            // textBox10
+            // tbTrainingExerciseNumberOfFlights
             // 
-            this.textBox10.Location = new System.Drawing.Point(193, 263);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(154, 26);
-            this.textBox10.TabIndex = 10;
+            this.tbTrainingExerciseNumberOfFlights.Location = new System.Drawing.Point(193, 263);
+            this.tbTrainingExerciseNumberOfFlights.Name = "tbTrainingExerciseNumberOfFlights";
+            this.tbTrainingExerciseNumberOfFlights.Size = new System.Drawing.Size(154, 26);
+            this.tbTrainingExerciseNumberOfFlights.TabIndex = 10;
             // 
-            // textBox11
+            // tbTrainingExerciseDuration
             // 
-            this.textBox11.Location = new System.Drawing.Point(193, 312);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(154, 26);
-            this.textBox11.TabIndex = 11;
+            this.tbTrainingExerciseDuration.Location = new System.Drawing.Point(193, 312);
+            this.tbTrainingExerciseDuration.Name = "tbTrainingExerciseDuration";
+            this.tbTrainingExerciseDuration.Size = new System.Drawing.Size(154, 26);
+            this.tbTrainingExerciseDuration.TabIndex = 11;
             // 
-            // btnEditExercise
+            // btnTrainingExerciseEditExercise
             // 
-            this.btnEditExercise.Location = new System.Drawing.Point(193, 357);
-            this.btnEditExercise.Name = "btnEditExercise";
-            this.btnEditExercise.Size = new System.Drawing.Size(154, 38);
-            this.btnEditExercise.TabIndex = 16;
-            this.btnEditExercise.Text = "Edit Exercise";
-            this.btnEditExercise.UseVisualStyleBackColor = true;
+            this.btnTrainingExerciseEditExercise.Location = new System.Drawing.Point(193, 357);
+            this.btnTrainingExerciseEditExercise.Name = "btnTrainingExerciseEditExercise";
+            this.btnTrainingExerciseEditExercise.Size = new System.Drawing.Size(154, 38);
+            this.btnTrainingExerciseEditExercise.TabIndex = 16;
+            this.btnTrainingExerciseEditExercise.Text = "Edit Exercise";
+            this.btnTrainingExerciseEditExercise.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
@@ -688,19 +744,19 @@
             // 
             // gbSelectedTopic
             // 
-            this.gbSelectedTopic.Controls.Add(this.btnEditTopic);
+            this.gbSelectedTopic.Controls.Add(this.btnTrainingSelectedTopicEditTopic);
             this.gbSelectedTopic.Controls.Add(this.label15);
             this.gbSelectedTopic.Controls.Add(this.label14);
             this.gbSelectedTopic.Controls.Add(this.label13);
             this.gbSelectedTopic.Controls.Add(this.label12);
-            this.gbSelectedTopic.Controls.Add(this.textBox15);
-            this.gbSelectedTopic.Controls.Add(this.textBox14);
-            this.gbSelectedTopic.Controls.Add(this.textBox13);
-            this.gbSelectedTopic.Controls.Add(this.textBox12);
-            this.gbSelectedTopic.Controls.Add(this.btnAddTopic);
-            this.gbSelectedTopic.Controls.Add(this.btnArchiveTopic);
-            this.gbSelectedTopic.Controls.Add(this.btnDeleteTopic);
-            this.gbSelectedTopic.Controls.Add(this.lbSubjects);
+            this.gbSelectedTopic.Controls.Add(this.tbTrainingSelectedTopicNumberOfClasses);
+            this.gbSelectedTopic.Controls.Add(this.tbTrainingSelectedTopicOrdinalNumber);
+            this.gbSelectedTopic.Controls.Add(this.tbTrainingSelectedTopicDescription);
+            this.gbSelectedTopic.Controls.Add(this.tbTrainingSelectedTopicName);
+            this.gbSelectedTopic.Controls.Add(this.btnTrainingSelectedTopicAddTopic);
+            this.gbSelectedTopic.Controls.Add(this.btnTrainingSelectedTopicArchiveTopic);
+            this.gbSelectedTopic.Controls.Add(this.btnTrainingSelectedTopicDeleteTopic);
+            this.gbSelectedTopic.Controls.Add(this.lbTrainingSelectedTopicSubjects);
             this.gbSelectedTopic.Location = new System.Drawing.Point(48, 531);
             this.gbSelectedTopic.Name = "gbSelectedTopic";
             this.gbSelectedTopic.Size = new System.Drawing.Size(832, 243);
@@ -708,69 +764,70 @@
             this.gbSelectedTopic.TabStop = false;
             this.gbSelectedTopic.Text = "Selected Topic";
             // 
-            // lbSubjects
+            // lbTrainingSelectedTopicSubjects
             // 
-            this.lbSubjects.FormattingEnabled = true;
-            this.lbSubjects.ItemHeight = 20;
-            this.lbSubjects.Location = new System.Drawing.Point(24, 46);
-            this.lbSubjects.Name = "lbSubjects";
-            this.lbSubjects.Size = new System.Drawing.Size(141, 184);
-            this.lbSubjects.TabIndex = 0;
+            this.lbTrainingSelectedTopicSubjects.FormattingEnabled = true;
+            this.lbTrainingSelectedTopicSubjects.ItemHeight = 20;
+            this.lbTrainingSelectedTopicSubjects.Location = new System.Drawing.Point(24, 46);
+            this.lbTrainingSelectedTopicSubjects.Name = "lbTrainingSelectedTopicSubjects";
+            this.lbTrainingSelectedTopicSubjects.Size = new System.Drawing.Size(141, 184);
+            this.lbTrainingSelectedTopicSubjects.TabIndex = 0;
             // 
-            // btnDeleteTopic
+            // btnTrainingSelectedTopicDeleteTopic
             // 
-            this.btnDeleteTopic.Location = new System.Drawing.Point(191, 181);
-            this.btnDeleteTopic.Name = "btnDeleteTopic";
-            this.btnDeleteTopic.Size = new System.Drawing.Size(141, 38);
-            this.btnDeleteTopic.TabIndex = 3;
-            this.btnDeleteTopic.Text = "Delete Topic";
-            this.btnDeleteTopic.UseVisualStyleBackColor = true;
+            this.btnTrainingSelectedTopicDeleteTopic.Location = new System.Drawing.Point(191, 181);
+            this.btnTrainingSelectedTopicDeleteTopic.Name = "btnTrainingSelectedTopicDeleteTopic";
+            this.btnTrainingSelectedTopicDeleteTopic.Size = new System.Drawing.Size(141, 38);
+            this.btnTrainingSelectedTopicDeleteTopic.TabIndex = 3;
+            this.btnTrainingSelectedTopicDeleteTopic.Text = "Delete Topic";
+            this.btnTrainingSelectedTopicDeleteTopic.UseVisualStyleBackColor = true;
             // 
-            // btnArchiveTopic
+            // btnTrainingSelectedTopicArchiveTopic
             // 
-            this.btnArchiveTopic.Location = new System.Drawing.Point(191, 118);
-            this.btnArchiveTopic.Name = "btnArchiveTopic";
-            this.btnArchiveTopic.Size = new System.Drawing.Size(141, 38);
-            this.btnArchiveTopic.TabIndex = 4;
-            this.btnArchiveTopic.Text = "Archive Topic";
-            this.btnArchiveTopic.UseVisualStyleBackColor = true;
+            this.btnTrainingSelectedTopicArchiveTopic.Location = new System.Drawing.Point(191, 118);
+            this.btnTrainingSelectedTopicArchiveTopic.Name = "btnTrainingSelectedTopicArchiveTopic";
+            this.btnTrainingSelectedTopicArchiveTopic.Size = new System.Drawing.Size(141, 38);
+            this.btnTrainingSelectedTopicArchiveTopic.TabIndex = 4;
+            this.btnTrainingSelectedTopicArchiveTopic.Text = "Archive Topic";
+            this.btnTrainingSelectedTopicArchiveTopic.UseVisualStyleBackColor = true;
             // 
-            // btnAddTopic
+            // btnTrainingSelectedTopicAddTopic
             // 
-            this.btnAddTopic.Location = new System.Drawing.Point(191, 56);
-            this.btnAddTopic.Name = "btnAddTopic";
-            this.btnAddTopic.Size = new System.Drawing.Size(141, 38);
-            this.btnAddTopic.TabIndex = 5;
-            this.btnAddTopic.Text = "Add Topic";
-            this.btnAddTopic.UseVisualStyleBackColor = true;
+            this.btnTrainingSelectedTopicAddTopic.Location = new System.Drawing.Point(191, 56);
+            this.btnTrainingSelectedTopicAddTopic.Name = "btnTrainingSelectedTopicAddTopic";
+            this.btnTrainingSelectedTopicAddTopic.Size = new System.Drawing.Size(141, 38);
+            this.btnTrainingSelectedTopicAddTopic.TabIndex = 5;
+            this.btnTrainingSelectedTopicAddTopic.Text = "Add Topic";
+            this.btnTrainingSelectedTopicAddTopic.UseVisualStyleBackColor = true;
             // 
-            // textBox12
+            // tbTrainingSelectedTopicName
             // 
-            this.textBox12.Location = new System.Drawing.Point(632, 25);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(154, 26);
-            this.textBox12.TabIndex = 10;
+            this.tbTrainingSelectedTopicName.Location = new System.Drawing.Point(632, 25);
+            this.tbTrainingSelectedTopicName.Name = "tbTrainingSelectedTopicName";
+            this.tbTrainingSelectedTopicName.Size = new System.Drawing.Size(154, 26);
+            this.tbTrainingSelectedTopicName.TabIndex = 10;
             // 
-            // textBox13
+            // tbTrainingSelectedTopicDescription
             // 
-            this.textBox13.Location = new System.Drawing.Point(632, 68);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(154, 26);
-            this.textBox13.TabIndex = 11;
+            this.tbTrainingSelectedTopicDescription.Location = new System.Drawing.Point(632, 68);
+            this.tbTrainingSelectedTopicDescription.Name = "tbTrainingSelectedTopicDescription";
+            this.tbTrainingSelectedTopicDescription.Size = new System.Drawing.Size(154, 26);
+            this.tbTrainingSelectedTopicDescription.TabIndex = 11;
+            this.tbTrainingSelectedTopicDescription.TextChanged += new System.EventHandler(this.textBox13_TextChanged);
             // 
-            // textBox14
+            // tbTrainingSelectedTopicOrdinalNumber
             // 
-            this.textBox14.Location = new System.Drawing.Point(632, 112);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(154, 26);
-            this.textBox14.TabIndex = 12;
+            this.tbTrainingSelectedTopicOrdinalNumber.Location = new System.Drawing.Point(632, 112);
+            this.tbTrainingSelectedTopicOrdinalNumber.Name = "tbTrainingSelectedTopicOrdinalNumber";
+            this.tbTrainingSelectedTopicOrdinalNumber.Size = new System.Drawing.Size(154, 26);
+            this.tbTrainingSelectedTopicOrdinalNumber.TabIndex = 12;
             // 
-            // textBox15
+            // tbTrainingSelectedTopicNumberOfClasses
             // 
-            this.textBox15.Location = new System.Drawing.Point(632, 159);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(154, 26);
-            this.textBox15.TabIndex = 13;
+            this.tbTrainingSelectedTopicNumberOfClasses.Location = new System.Drawing.Point(632, 159);
+            this.tbTrainingSelectedTopicNumberOfClasses.Name = "tbTrainingSelectedTopicNumberOfClasses";
+            this.tbTrainingSelectedTopicNumberOfClasses.Size = new System.Drawing.Size(154, 26);
+            this.tbTrainingSelectedTopicNumberOfClasses.TabIndex = 13;
             // 
             // label12
             // 
@@ -808,41 +865,41 @@
             this.label15.TabIndex = 17;
             this.label15.Text = "Number of Classes";
             // 
-            // btnEditTopic
+            // btnTrainingSelectedTopicEditTopic
             // 
-            this.btnEditTopic.Location = new System.Drawing.Point(497, 199);
-            this.btnEditTopic.Name = "btnEditTopic";
-            this.btnEditTopic.Size = new System.Drawing.Size(243, 31);
-            this.btnEditTopic.TabIndex = 18;
-            this.btnEditTopic.Text = "Edit Topic";
-            this.btnEditTopic.UseVisualStyleBackColor = true;
+            this.btnTrainingSelectedTopicEditTopic.Location = new System.Drawing.Point(497, 199);
+            this.btnTrainingSelectedTopicEditTopic.Name = "btnTrainingSelectedTopicEditTopic";
+            this.btnTrainingSelectedTopicEditTopic.Size = new System.Drawing.Size(243, 31);
+            this.btnTrainingSelectedTopicEditTopic.TabIndex = 18;
+            this.btnTrainingSelectedTopicEditTopic.Text = "Edit Topic";
+            this.btnTrainingSelectedTopicEditTopic.UseVisualStyleBackColor = true;
             // 
-            // lbStudent
+            // lbStudentListOfStudents
             // 
-            this.lbStudent.FormattingEnabled = true;
-            this.lbStudent.ItemHeight = 20;
-            this.lbStudent.Location = new System.Drawing.Point(321, 153);
-            this.lbStudent.Name = "lbStudent";
-            this.lbStudent.Size = new System.Drawing.Size(237, 364);
-            this.lbStudent.TabIndex = 0;
+            this.lbStudentListOfStudents.FormattingEnabled = true;
+            this.lbStudentListOfStudents.ItemHeight = 20;
+            this.lbStudentListOfStudents.Location = new System.Drawing.Point(321, 153);
+            this.lbStudentListOfStudents.Name = "lbStudentListOfStudents";
+            this.lbStudentListOfStudents.Size = new System.Drawing.Size(237, 364);
+            this.lbStudentListOfStudents.TabIndex = 0;
             // 
-            // btnAddStudent
+            // btnStudentAddStudent
             // 
-            this.btnAddStudent.Location = new System.Drawing.Point(321, 540);
-            this.btnAddStudent.Name = "btnAddStudent";
-            this.btnAddStudent.Size = new System.Drawing.Size(237, 40);
-            this.btnAddStudent.TabIndex = 1;
-            this.btnAddStudent.Text = "Add Student";
-            this.btnAddStudent.UseVisualStyleBackColor = true;
+            this.btnStudentAddStudent.Location = new System.Drawing.Point(321, 540);
+            this.btnStudentAddStudent.Name = "btnStudentAddStudent";
+            this.btnStudentAddStudent.Size = new System.Drawing.Size(237, 40);
+            this.btnStudentAddStudent.TabIndex = 1;
+            this.btnStudentAddStudent.Text = "Add Student";
+            this.btnStudentAddStudent.UseVisualStyleBackColor = true;
             // 
-            // btnDeleteStudent
+            // btnStudentDeleteStudent
             // 
-            this.btnDeleteStudent.Location = new System.Drawing.Point(321, 595);
-            this.btnDeleteStudent.Name = "btnDeleteStudent";
-            this.btnDeleteStudent.Size = new System.Drawing.Size(237, 40);
-            this.btnDeleteStudent.TabIndex = 2;
-            this.btnDeleteStudent.Text = "Delete Student";
-            this.btnDeleteStudent.UseVisualStyleBackColor = true;
+            this.btnStudentDeleteStudent.Location = new System.Drawing.Point(321, 595);
+            this.btnStudentDeleteStudent.Name = "btnStudentDeleteStudent";
+            this.btnStudentDeleteStudent.Size = new System.Drawing.Size(237, 40);
+            this.btnStudentDeleteStudent.TabIndex = 2;
+            this.btnStudentDeleteStudent.Text = "Delete Student";
+            this.btnStudentDeleteStudent.UseVisualStyleBackColor = true;
             // 
             // pbStudent
             // 
@@ -852,49 +909,49 @@
             this.pbStudent.TabIndex = 3;
             this.pbStudent.TabStop = false;
             // 
-            // textBox16
+            // tbStudentName
             // 
-            this.textBox16.Location = new System.Drawing.Point(587, 342);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(237, 26);
-            this.textBox16.TabIndex = 4;
+            this.tbStudentName.Location = new System.Drawing.Point(587, 342);
+            this.tbStudentName.Name = "tbStudentName";
+            this.tbStudentName.Size = new System.Drawing.Size(237, 26);
+            this.tbStudentName.TabIndex = 4;
             // 
-            // textBox17
+            // tbStudentSocialNumber
             // 
-            this.textBox17.Location = new System.Drawing.Point(587, 394);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(237, 26);
-            this.textBox17.TabIndex = 5;
+            this.tbStudentSocialNumber.Location = new System.Drawing.Point(587, 394);
+            this.tbStudentSocialNumber.Name = "tbStudentSocialNumber";
+            this.tbStudentSocialNumber.Size = new System.Drawing.Size(237, 26);
+            this.tbStudentSocialNumber.TabIndex = 5;
             // 
-            // textBox18
+            // tbStudentAdress
             // 
-            this.textBox18.Location = new System.Drawing.Point(587, 446);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(237, 26);
-            this.textBox18.TabIndex = 6;
+            this.tbStudentAdress.Location = new System.Drawing.Point(587, 446);
+            this.tbStudentAdress.Name = "tbStudentAdress";
+            this.tbStudentAdress.Size = new System.Drawing.Size(237, 26);
+            this.tbStudentAdress.TabIndex = 6;
             // 
-            // textBox19
+            // tbStudentPhoneNumber
             // 
-            this.textBox19.Location = new System.Drawing.Point(587, 502);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(237, 26);
-            this.textBox19.TabIndex = 7;
+            this.tbStudentPhoneNumber.Location = new System.Drawing.Point(587, 502);
+            this.tbStudentPhoneNumber.Name = "tbStudentPhoneNumber";
+            this.tbStudentPhoneNumber.Size = new System.Drawing.Size(237, 26);
+            this.tbStudentPhoneNumber.TabIndex = 7;
             // 
-            // textBox20
+            // tbStudentEMail
             // 
-            this.textBox20.Location = new System.Drawing.Point(587, 554);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(237, 26);
-            this.textBox20.TabIndex = 8;
+            this.tbStudentEMail.Location = new System.Drawing.Point(587, 554);
+            this.tbStudentEMail.Name = "tbStudentEMail";
+            this.tbStudentEMail.Size = new System.Drawing.Size(237, 26);
+            this.tbStudentEMail.TabIndex = 8;
             // 
-            // btnEditStudent
+            // btnStudentEditStudent
             // 
-            this.btnEditStudent.Location = new System.Drawing.Point(587, 595);
-            this.btnEditStudent.Name = "btnEditStudent";
-            this.btnEditStudent.Size = new System.Drawing.Size(237, 40);
-            this.btnEditStudent.TabIndex = 9;
-            this.btnEditStudent.Text = "Edit Student";
-            this.btnEditStudent.UseVisualStyleBackColor = true;
+            this.btnStudentEditStudent.Location = new System.Drawing.Point(587, 595);
+            this.btnStudentEditStudent.Name = "btnStudentEditStudent";
+            this.btnStudentEditStudent.Size = new System.Drawing.Size(237, 40);
+            this.btnStudentEditStudent.TabIndex = 9;
+            this.btnStudentEditStudent.Text = "Edit Student";
+            this.btnStudentEditStudent.UseVisualStyleBackColor = true;
             // 
             // label16
             // 
@@ -959,23 +1016,23 @@
             this.label22.TabIndex = 19;
             this.label22.Text = "List of Groups";
             // 
-            // btnArchiveGroup
+            // btnGroupArchiveGroup
             // 
-            this.btnArchiveGroup.Location = new System.Drawing.Point(335, 625);
-            this.btnArchiveGroup.Name = "btnArchiveGroup";
-            this.btnArchiveGroup.Size = new System.Drawing.Size(237, 40);
-            this.btnArchiveGroup.TabIndex = 18;
-            this.btnArchiveGroup.Text = "Archive Group";
-            this.btnArchiveGroup.UseVisualStyleBackColor = true;
+            this.btnGroupArchiveGroup.Location = new System.Drawing.Point(335, 625);
+            this.btnGroupArchiveGroup.Name = "btnGroupArchiveGroup";
+            this.btnGroupArchiveGroup.Size = new System.Drawing.Size(237, 40);
+            this.btnGroupArchiveGroup.TabIndex = 18;
+            this.btnGroupArchiveGroup.Text = "Archive Group";
+            this.btnGroupArchiveGroup.UseVisualStyleBackColor = true;
             // 
-            // btnAddGroup
+            // btnGroupAddGroup
             // 
-            this.btnAddGroup.Location = new System.Drawing.Point(335, 570);
-            this.btnAddGroup.Name = "btnAddGroup";
-            this.btnAddGroup.Size = new System.Drawing.Size(237, 40);
-            this.btnAddGroup.TabIndex = 17;
-            this.btnAddGroup.Text = "Add Group";
-            this.btnAddGroup.UseVisualStyleBackColor = true;
+            this.btnGroupAddGroup.Location = new System.Drawing.Point(335, 570);
+            this.btnGroupAddGroup.Name = "btnGroupAddGroup";
+            this.btnGroupAddGroup.Size = new System.Drawing.Size(237, 40);
+            this.btnGroupAddGroup.TabIndex = 17;
+            this.btnGroupAddGroup.Text = "Add Group";
+            this.btnGroupAddGroup.UseVisualStyleBackColor = true;
             // 
             // lbGroupes
             // 
@@ -986,14 +1043,14 @@
             this.lbGroupes.Size = new System.Drawing.Size(237, 404);
             this.lbGroupes.TabIndex = 16;
             // 
-            // btnDeleteGroup
+            // btnGroupDeleteGroup
             // 
-            this.btnDeleteGroup.Location = new System.Drawing.Point(335, 682);
-            this.btnDeleteGroup.Name = "btnDeleteGroup";
-            this.btnDeleteGroup.Size = new System.Drawing.Size(237, 40);
-            this.btnDeleteGroup.TabIndex = 20;
-            this.btnDeleteGroup.Text = "Delete Group";
-            this.btnDeleteGroup.UseVisualStyleBackColor = true;
+            this.btnGroupDeleteGroup.Location = new System.Drawing.Point(335, 682);
+            this.btnGroupDeleteGroup.Name = "btnGroupDeleteGroup";
+            this.btnGroupDeleteGroup.Size = new System.Drawing.Size(237, 40);
+            this.btnGroupDeleteGroup.TabIndex = 20;
+            this.btnGroupDeleteGroup.Text = "Delete Group";
+            this.btnGroupDeleteGroup.UseVisualStyleBackColor = true;
             // 
             // lblGroupsTraining
             // 
@@ -1085,32 +1142,32 @@
             this.lbGroupsStudents.Size = new System.Drawing.Size(237, 164);
             this.lbGroupsStudents.TabIndex = 30;
             // 
-            // btnAddStudentSettings
+            // btnGroupAddStudentSettings
             // 
-            this.btnAddStudentSettings.Location = new System.Drawing.Point(625, 625);
-            this.btnAddStudentSettings.Name = "btnAddStudentSettings";
-            this.btnAddStudentSettings.Size = new System.Drawing.Size(237, 40);
-            this.btnAddStudentSettings.TabIndex = 31;
-            this.btnAddStudentSettings.Text = "Add Student";
-            this.btnAddStudentSettings.UseVisualStyleBackColor = true;
+            this.btnGroupAddStudentSettings.Location = new System.Drawing.Point(625, 625);
+            this.btnGroupAddStudentSettings.Name = "btnGroupAddStudentSettings";
+            this.btnGroupAddStudentSettings.Size = new System.Drawing.Size(237, 40);
+            this.btnGroupAddStudentSettings.TabIndex = 31;
+            this.btnGroupAddStudentSettings.Text = "Add Student";
+            this.btnGroupAddStudentSettings.UseVisualStyleBackColor = true;
             // 
-            // btnDeleteStudentSettings
+            // btnGroupDeleteStudentSettings
             // 
-            this.btnDeleteStudentSettings.Location = new System.Drawing.Point(625, 682);
-            this.btnDeleteStudentSettings.Name = "btnDeleteStudentSettings";
-            this.btnDeleteStudentSettings.Size = new System.Drawing.Size(237, 40);
-            this.btnDeleteStudentSettings.TabIndex = 32;
-            this.btnDeleteStudentSettings.Text = "Delete Student";
-            this.btnDeleteStudentSettings.UseVisualStyleBackColor = true;
+            this.btnGroupDeleteStudentSettings.Location = new System.Drawing.Point(625, 682);
+            this.btnGroupDeleteStudentSettings.Name = "btnGroupDeleteStudentSettings";
+            this.btnGroupDeleteStudentSettings.Size = new System.Drawing.Size(237, 40);
+            this.btnGroupDeleteStudentSettings.TabIndex = 32;
+            this.btnGroupDeleteStudentSettings.Text = "Delete Student";
+            this.btnGroupDeleteStudentSettings.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnEmployeeDeleteGroup
             // 
-            this.button1.Location = new System.Drawing.Point(252, 775);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(237, 40);
-            this.button1.TabIndex = 25;
-            this.button1.Text = "Delete Group";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnEmployeeDeleteGroup.Location = new System.Drawing.Point(252, 775);
+            this.btnEmployeeDeleteGroup.Name = "btnEmployeeDeleteGroup";
+            this.btnEmployeeDeleteGroup.Size = new System.Drawing.Size(237, 40);
+            this.btnEmployeeDeleteGroup.TabIndex = 25;
+            this.btnEmployeeDeleteGroup.Text = "Delete Group";
+            this.btnEmployeeDeleteGroup.UseVisualStyleBackColor = true;
             // 
             // label27
             // 
@@ -1121,40 +1178,40 @@
             this.label27.TabIndex = 24;
             this.label27.Text = "List of Groups";
             // 
-            // button3
+            // btnEmployeeArchiveGroup
             // 
-            this.button3.Location = new System.Drawing.Point(252, 718);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(237, 40);
-            this.button3.TabIndex = 23;
-            this.button3.Text = "Archive Group";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnEmployeeArchiveGroup.Location = new System.Drawing.Point(252, 718);
+            this.btnEmployeeArchiveGroup.Name = "btnEmployeeArchiveGroup";
+            this.btnEmployeeArchiveGroup.Size = new System.Drawing.Size(237, 40);
+            this.btnEmployeeArchiveGroup.TabIndex = 23;
+            this.btnEmployeeArchiveGroup.Text = "Archive Group";
+            this.btnEmployeeArchiveGroup.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnEmployeeAddGroup
             // 
-            this.button4.Location = new System.Drawing.Point(252, 663);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(237, 40);
-            this.button4.TabIndex = 22;
-            this.button4.Text = "Add Group";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnEmployeeAddGroup.Location = new System.Drawing.Point(252, 663);
+            this.btnEmployeeAddGroup.Name = "btnEmployeeAddGroup";
+            this.btnEmployeeAddGroup.Size = new System.Drawing.Size(237, 40);
+            this.btnEmployeeAddGroup.TabIndex = 22;
+            this.btnEmployeeAddGroup.Text = "Add Group";
+            this.btnEmployeeAddGroup.UseVisualStyleBackColor = true;
             // 
-            // listBox2
+            // lbEmployeeListOfGroups
             // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.ItemHeight = 20;
-            this.listBox2.Location = new System.Drawing.Point(252, 91);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(237, 544);
-            this.listBox2.TabIndex = 21;
+            this.lbEmployeeListOfGroups.FormattingEnabled = true;
+            this.lbEmployeeListOfGroups.ItemHeight = 20;
+            this.lbEmployeeListOfGroups.Location = new System.Drawing.Point(252, 91);
+            this.lbEmployeeListOfGroups.Name = "lbEmployeeListOfGroups";
+            this.lbEmployeeListOfGroups.Size = new System.Drawing.Size(237, 544);
+            this.lbEmployeeListOfGroups.TabIndex = 21;
             // 
-            // pictureBox1
+            // pbEmployee
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(776, 91);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(250, 212);
-            this.pictureBox1.TabIndex = 26;
-            this.pictureBox1.TabStop = false;
+            this.pbEmployee.Location = new System.Drawing.Point(776, 91);
+            this.pbEmployee.Name = "pbEmployee";
+            this.pbEmployee.Size = new System.Drawing.Size(281, 286);
+            this.pbEmployee.TabIndex = 26;
+            this.pbEmployee.TabStop = false;
             // 
             // label28
             // 
@@ -1201,40 +1258,40 @@
             this.label32.TabIndex = 32;
             this.label32.Text = "Name";
             // 
-            // textBox21
+            // tbEmployeeEMial
             // 
-            this.textBox21.Location = new System.Drawing.Point(514, 299);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(237, 26);
-            this.textBox21.TabIndex = 31;
+            this.tbEmployeeEMial.Location = new System.Drawing.Point(514, 299);
+            this.tbEmployeeEMial.Name = "tbEmployeeEMial";
+            this.tbEmployeeEMial.Size = new System.Drawing.Size(237, 26);
+            this.tbEmployeeEMial.TabIndex = 31;
             // 
-            // textBox22
+            // tbEmployeePhoneNumber
             // 
-            this.textBox22.Location = new System.Drawing.Point(514, 247);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(237, 26);
-            this.textBox22.TabIndex = 30;
+            this.tbEmployeePhoneNumber.Location = new System.Drawing.Point(514, 247);
+            this.tbEmployeePhoneNumber.Name = "tbEmployeePhoneNumber";
+            this.tbEmployeePhoneNumber.Size = new System.Drawing.Size(237, 26);
+            this.tbEmployeePhoneNumber.TabIndex = 30;
             // 
-            // textBox23
+            // tbEmployeeAdress
             // 
-            this.textBox23.Location = new System.Drawing.Point(514, 191);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(237, 26);
-            this.textBox23.TabIndex = 29;
+            this.tbEmployeeAdress.Location = new System.Drawing.Point(514, 191);
+            this.tbEmployeeAdress.Name = "tbEmployeeAdress";
+            this.tbEmployeeAdress.Size = new System.Drawing.Size(237, 26);
+            this.tbEmployeeAdress.TabIndex = 29;
             // 
-            // textBox24
+            // tbEmployeeSocialNumber
             // 
-            this.textBox24.Location = new System.Drawing.Point(514, 139);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(237, 26);
-            this.textBox24.TabIndex = 28;
+            this.tbEmployeeSocialNumber.Location = new System.Drawing.Point(514, 139);
+            this.tbEmployeeSocialNumber.Name = "tbEmployeeSocialNumber";
+            this.tbEmployeeSocialNumber.Size = new System.Drawing.Size(237, 26);
+            this.tbEmployeeSocialNumber.TabIndex = 28;
             // 
-            // textBox25
+            // tbEmployeeName
             // 
-            this.textBox25.Location = new System.Drawing.Point(514, 87);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(237, 26);
-            this.textBox25.TabIndex = 27;
+            this.tbEmployeeName.Location = new System.Drawing.Point(514, 87);
+            this.tbEmployeeName.Name = "tbEmployeeName";
+            this.tbEmployeeName.Size = new System.Drawing.Size(237, 26);
+            this.tbEmployeeName.TabIndex = 27;
             // 
             // label33
             // 
@@ -1245,39 +1302,40 @@
             this.label33.TabIndex = 37;
             this.label33.Text = "School";
             // 
-            // textBox26
+            // tbEmployeeSchool
             // 
-            this.textBox26.Location = new System.Drawing.Point(514, 351);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(237, 26);
-            this.textBox26.TabIndex = 38;
+            this.tbEmployeeSchool.Location = new System.Drawing.Point(514, 351);
+            this.tbEmployeeSchool.Name = "tbEmployeeSchool";
+            this.tbEmployeeSchool.Size = new System.Drawing.Size(237, 26);
+            this.tbEmployeeSchool.TabIndex = 38;
             // 
-            // listBox3
+            // lbLicencedSubjects
             // 
-            this.listBox3.FormattingEnabled = true;
-            this.listBox3.ItemHeight = 20;
-            this.listBox3.Location = new System.Drawing.Point(514, 439);
-            this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(237, 264);
-            this.listBox3.TabIndex = 39;
+            this.lbLicencedSubjects.FormattingEnabled = true;
+            this.lbLicencedSubjects.ItemHeight = 20;
+            this.lbLicencedSubjects.Location = new System.Drawing.Point(514, 439);
+            this.lbLicencedSubjects.Name = "lbLicencedSubjects";
+            this.lbLicencedSubjects.Size = new System.Drawing.Size(237, 264);
+            this.lbLicencedSubjects.TabIndex = 39;
             // 
-            // button5
+            // btnEmployeeAuthorize
             // 
-            this.button5.Location = new System.Drawing.Point(514, 720);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(237, 40);
-            this.button5.TabIndex = 40;
-            this.button5.Text = "Add Group";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnEmployeeAuthorize.Location = new System.Drawing.Point(514, 720);
+            this.btnEmployeeAuthorize.Name = "btnEmployeeAuthorize";
+            this.btnEmployeeAuthorize.Size = new System.Drawing.Size(237, 40);
+            this.btnEmployeeAuthorize.TabIndex = 40;
+            this.btnEmployeeAuthorize.Text = "Authorize";
+            this.btnEmployeeAuthorize.UseVisualStyleBackColor = true;
+            this.btnEmployeeAuthorize.Click += new System.EventHandler(this.btnEmployeeAddGroupSubjects_Click);
             // 
-            // button6
+            // btnEmployeeDeauthorize
             // 
-            this.button6.Location = new System.Drawing.Point(514, 775);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(237, 40);
-            this.button6.TabIndex = 41;
-            this.button6.Text = "Add Group";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnEmployeeDeauthorize.Location = new System.Drawing.Point(514, 775);
+            this.btnEmployeeDeauthorize.Name = "btnEmployeeDeauthorize";
+            this.btnEmployeeDeauthorize.Size = new System.Drawing.Size(237, 40);
+            this.btnEmployeeDeauthorize.TabIndex = 41;
+            this.btnEmployeeDeauthorize.Text = "Deauthorize";
+            this.btnEmployeeDeauthorize.UseVisualStyleBackColor = true;
             // 
             // label34
             // 
@@ -1290,29 +1348,468 @@
             // 
             // gbExistingUsers
             // 
-            this.gbExistingUsers.Controls.Add(this.textBox27);
+            this.gbExistingUsers.Controls.Add(this.cbUserAccessLevel);
+            this.gbExistingUsers.Controls.Add(this.btnUserDelete);
+            this.gbExistingUsers.Controls.Add(this.btnUserEdit);
+            this.gbExistingUsers.Controls.Add(this.tbUsersPassword);
+            this.gbExistingUsers.Controls.Add(this.tbUsersUsername);
+            this.gbExistingUsers.Controls.Add(this.label37);
+            this.gbExistingUsers.Controls.Add(this.label36);
+            this.gbExistingUsers.Controls.Add(this.label35);
+            this.gbExistingUsers.Controls.Add(this.lbUsersAdminList);
             this.gbExistingUsers.Location = new System.Drawing.Point(149, 274);
             this.gbExistingUsers.Name = "gbExistingUsers";
-            this.gbExistingUsers.Size = new System.Drawing.Size(574, 349);
+            this.gbExistingUsers.Size = new System.Drawing.Size(533, 349);
             this.gbExistingUsers.TabIndex = 0;
             this.gbExistingUsers.TabStop = false;
             this.gbExistingUsers.Text = "Existing Users";
             // 
-            // groupBox2
+            // gbAddUser
             // 
-            this.groupBox2.Location = new System.Drawing.Point(745, 274);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(200, 100);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.gbAddUser.Controls.Add(this.btnUserAdd);
+            this.gbAddUser.Controls.Add(this.cbUserAddUserAccessLevel);
+            this.gbAddUser.Controls.Add(this.tbUserAddUserPassword);
+            this.gbAddUser.Controls.Add(this.tbUserAddUserUsername);
+            this.gbAddUser.Controls.Add(this.label38);
+            this.gbAddUser.Controls.Add(this.label39);
+            this.gbAddUser.Controls.Add(this.label40);
+            this.gbAddUser.Location = new System.Drawing.Point(703, 274);
+            this.gbAddUser.Name = "gbAddUser";
+            this.gbAddUser.Size = new System.Drawing.Size(300, 349);
+            this.gbAddUser.TabIndex = 1;
+            this.gbAddUser.TabStop = false;
+            this.gbAddUser.Text = "Add User";
             // 
-            // textBox27
+            // lbUsersAdminList
             // 
-            this.textBox27.Location = new System.Drawing.Point(17, 39);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(208, 26);
-            this.textBox27.TabIndex = 0;
+            this.lbUsersAdminList.FormattingEnabled = true;
+            this.lbUsersAdminList.ItemHeight = 20;
+            this.lbUsersAdminList.Location = new System.Drawing.Point(16, 26);
+            this.lbUsersAdminList.Name = "lbUsersAdminList";
+            this.lbUsersAdminList.Size = new System.Drawing.Size(190, 304);
+            this.lbUsersAdminList.TabIndex = 0;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(231, 47);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(83, 20);
+            this.label35.TabIndex = 1;
+            this.label35.Text = "Username";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(231, 160);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(102, 20);
+            this.label36.TabIndex = 2;
+            this.label36.Text = "Access Level";
+            this.label36.Click += new System.EventHandler(this.label36_Click);
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(231, 101);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(78, 20);
+            this.label37.TabIndex = 3;
+            this.label37.Text = "Password";
+            // 
+            // tbUsersUsername
+            // 
+            this.tbUsersUsername.Location = new System.Drawing.Point(234, 70);
+            this.tbUsersUsername.Name = "tbUsersUsername";
+            this.tbUsersUsername.Size = new System.Drawing.Size(246, 26);
+            this.tbUsersUsername.TabIndex = 4;
+            // 
+            // tbUsersPassword
+            // 
+            this.tbUsersPassword.Location = new System.Drawing.Point(234, 124);
+            this.tbUsersPassword.Name = "tbUsersPassword";
+            this.tbUsersPassword.Size = new System.Drawing.Size(246, 26);
+            this.tbUsersPassword.TabIndex = 6;
+            // 
+            // btnUserEdit
+            // 
+            this.btnUserEdit.Location = new System.Drawing.Point(235, 236);
+            this.btnUserEdit.Name = "btnUserEdit";
+            this.btnUserEdit.Size = new System.Drawing.Size(109, 38);
+            this.btnUserEdit.TabIndex = 7;
+            this.btnUserEdit.Text = "Edit";
+            this.btnUserEdit.UseVisualStyleBackColor = true;
+            // 
+            // btnUserDelete
+            // 
+            this.btnUserDelete.Location = new System.Drawing.Point(371, 236);
+            this.btnUserDelete.Name = "btnUserDelete";
+            this.btnUserDelete.Size = new System.Drawing.Size(109, 38);
+            this.btnUserDelete.TabIndex = 8;
+            this.btnUserDelete.Text = "Delete";
+            this.btnUserDelete.UseVisualStyleBackColor = true;
+            // 
+            // cbUserAddUserAccessLevel
+            // 
+            this.cbUserAddUserAccessLevel.FormattingEnabled = true;
+            this.cbUserAddUserAccessLevel.Location = new System.Drawing.Point(26, 184);
+            this.cbUserAddUserAccessLevel.Name = "cbUserAddUserAccessLevel";
+            this.cbUserAddUserAccessLevel.Size = new System.Drawing.Size(245, 28);
+            this.cbUserAddUserAccessLevel.TabIndex = 15;
+            // 
+            // tbUserAddUserPassword
+            // 
+            this.tbUserAddUserPassword.Location = new System.Drawing.Point(25, 124);
+            this.tbUserAddUserPassword.Name = "tbUserAddUserPassword";
+            this.tbUserAddUserPassword.Size = new System.Drawing.Size(246, 26);
+            this.tbUserAddUserPassword.TabIndex = 14;
+            // 
+            // tbUserAddUserUsername
+            // 
+            this.tbUserAddUserUsername.Location = new System.Drawing.Point(25, 70);
+            this.tbUserAddUserUsername.Name = "tbUserAddUserUsername";
+            this.tbUserAddUserUsername.Size = new System.Drawing.Size(246, 26);
+            this.tbUserAddUserUsername.TabIndex = 13;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(22, 101);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(78, 20);
+            this.label38.TabIndex = 12;
+            this.label38.Text = "Password";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(22, 160);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(102, 20);
+            this.label39.TabIndex = 11;
+            this.label39.Text = "Access Level";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(22, 47);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(83, 20);
+            this.label40.TabIndex = 10;
+            this.label40.Text = "Username";
+            // 
+            // btnUserAdd
+            // 
+            this.btnUserAdd.Location = new System.Drawing.Point(162, 236);
+            this.btnUserAdd.Name = "btnUserAdd";
+            this.btnUserAdd.Size = new System.Drawing.Size(109, 38);
+            this.btnUserAdd.TabIndex = 16;
+            this.btnUserAdd.Text = "Add";
+            this.btnUserAdd.UseVisualStyleBackColor = true;
+            // 
+            // lbAirplaneType
+            // 
+            this.lbAirplaneType.FormattingEnabled = true;
+            this.lbAirplaneType.ItemHeight = 20;
+            this.lbAirplaneType.Location = new System.Drawing.Point(19, 35);
+            this.lbAirplaneType.Name = "lbAirplaneType";
+            this.lbAirplaneType.Size = new System.Drawing.Size(245, 284);
+            this.lbAirplaneType.TabIndex = 0;
+            // 
+            // btnAddAirplaneType
+            // 
+            this.btnAddAirplaneType.Location = new System.Drawing.Point(151, 327);
+            this.btnAddAirplaneType.Name = "btnAddAirplaneType";
+            this.btnAddAirplaneType.Size = new System.Drawing.Size(113, 36);
+            this.btnAddAirplaneType.TabIndex = 1;
+            this.btnAddAirplaneType.Text = "Add type";
+            this.btnAddAirplaneType.UseVisualStyleBackColor = true;
+            // 
+            // btnAirplaneTypeDelete
+            // 
+            this.btnAirplaneTypeDelete.Location = new System.Drawing.Point(19, 327);
+            this.btnAirplaneTypeDelete.Name = "btnAirplaneTypeDelete";
+            this.btnAirplaneTypeDelete.Size = new System.Drawing.Size(113, 36);
+            this.btnAirplaneTypeDelete.TabIndex = 2;
+            this.btnAirplaneTypeDelete.Text = "Delete type";
+            this.btnAirplaneTypeDelete.UseVisualStyleBackColor = true;
+            // 
+            // lbAirplaneList
+            // 
+            this.lbAirplaneList.FormattingEnabled = true;
+            this.lbAirplaneList.ItemHeight = 20;
+            this.lbAirplaneList.Location = new System.Drawing.Point(37, 37);
+            this.lbAirplaneList.Name = "lbAirplaneList";
+            this.lbAirplaneList.Size = new System.Drawing.Size(220, 244);
+            this.lbAirplaneList.TabIndex = 3;
+            // 
+            // btnAirplane
+            // 
+            this.btnAirplane.Location = new System.Drawing.Point(37, 300);
+            this.btnAirplane.Name = "btnAirplane";
+            this.btnAirplane.Size = new System.Drawing.Size(220, 36);
+            this.btnAirplane.TabIndex = 4;
+            this.btnAirplane.Text = "Add Airplane";
+            this.btnAirplane.UseVisualStyleBackColor = true;
+            // 
+            // btnDeleteAirplane
+            // 
+            this.btnDeleteAirplane.Location = new System.Drawing.Point(37, 384);
+            this.btnDeleteAirplane.Name = "btnDeleteAirplane";
+            this.btnDeleteAirplane.Size = new System.Drawing.Size(220, 36);
+            this.btnDeleteAirplane.TabIndex = 5;
+            this.btnDeleteAirplane.Text = "Delete Airplane";
+            this.btnDeleteAirplane.UseVisualStyleBackColor = true;
+            // 
+            // btnArchiveAirplane
+            // 
+            this.btnArchiveAirplane.Location = new System.Drawing.Point(37, 342);
+            this.btnArchiveAirplane.Name = "btnArchiveAirplane";
+            this.btnArchiveAirplane.Size = new System.Drawing.Size(220, 36);
+            this.btnArchiveAirplane.TabIndex = 6;
+            this.btnArchiveAirplane.Text = "Archive Airplane";
+            this.btnArchiveAirplane.UseVisualStyleBackColor = true;
+            // 
+            // tbAirplaneName
+            // 
+            this.tbAirplaneName.Location = new System.Drawing.Point(286, 61);
+            this.tbAirplaneName.Name = "tbAirplaneName";
+            this.tbAirplaneName.Size = new System.Drawing.Size(248, 26);
+            this.tbAirplaneName.TabIndex = 7;
+            // 
+            // tbAirplaneRegistration
+            // 
+            this.tbAirplaneRegistration.Location = new System.Drawing.Point(286, 122);
+            this.tbAirplaneRegistration.Name = "tbAirplaneRegistration";
+            this.tbAirplaneRegistration.Size = new System.Drawing.Size(248, 26);
+            this.tbAirplaneRegistration.TabIndex = 9;
+            // 
+            // cbAirplaneType
+            // 
+            this.cbAirplaneType.FormattingEnabled = true;
+            this.cbAirplaneType.Location = new System.Drawing.Point(286, 191);
+            this.cbAirplaneType.Name = "cbAirplaneType";
+            this.cbAirplaneType.Size = new System.Drawing.Size(248, 28);
+            this.cbAirplaneType.TabIndex = 10;
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(282, 35);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(113, 20);
+            this.label41.TabIndex = 11;
+            this.label41.Text = "Airplane Name";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(282, 99);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(157, 20);
+            this.label42.TabIndex = 12;
+            this.label42.Text = "Airplane Registration";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(282, 168);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(105, 20);
+            this.label43.TabIndex = 13;
+            this.label43.Text = "Airplane Type";
+            // 
+            // btnEditAirplane
+            // 
+            this.btnEditAirplane.Location = new System.Drawing.Point(286, 243);
+            this.btnEditAirplane.Name = "btnEditAirplane";
+            this.btnEditAirplane.Size = new System.Drawing.Size(248, 38);
+            this.btnEditAirplane.TabIndex = 14;
+            this.btnEditAirplane.Text = "Edit Airplane";
+            this.btnEditAirplane.UseVisualStyleBackColor = true;
+            // 
+            // gbAirplane
+            // 
+            this.gbAirplane.Controls.Add(this.lbAirplaneList);
+            this.gbAirplane.Controls.Add(this.btnEditAirplane);
+            this.gbAirplane.Controls.Add(this.btnAirplane);
+            this.gbAirplane.Controls.Add(this.label43);
+            this.gbAirplane.Controls.Add(this.btnDeleteAirplane);
+            this.gbAirplane.Controls.Add(this.label42);
+            this.gbAirplane.Controls.Add(this.btnArchiveAirplane);
+            this.gbAirplane.Controls.Add(this.label41);
+            this.gbAirplane.Controls.Add(this.tbAirplaneName);
+            this.gbAirplane.Controls.Add(this.cbAirplaneType);
+            this.gbAirplane.Controls.Add(this.tbAirplaneRegistration);
+            this.gbAirplane.Location = new System.Drawing.Point(448, 27);
+            this.gbAirplane.Name = "gbAirplane";
+            this.gbAirplane.Size = new System.Drawing.Size(623, 442);
+            this.gbAirplane.TabIndex = 15;
+            this.gbAirplane.TabStop = false;
+            this.gbAirplane.Text = "Airplane";
+            // 
+            // gbAirplaneType
+            // 
+            this.gbAirplaneType.Controls.Add(this.btnAddAirplaneType);
+            this.gbAirplaneType.Controls.Add(this.lbAirplaneType);
+            this.gbAirplaneType.Controls.Add(this.btnAirplaneTypeDelete);
+            this.gbAirplaneType.Location = new System.Drawing.Point(95, 27);
+            this.gbAirplaneType.Name = "gbAirplaneType";
+            this.gbAirplaneType.Size = new System.Drawing.Size(311, 385);
+            this.gbAirplaneType.TabIndex = 16;
+            this.gbAirplaneType.TabStop = false;
+            this.gbAirplaneType.Text = "Airplane Type";
+            // 
+            // gbAirport
+            // 
+            this.gbAirport.Controls.Add(this.tbAirportCode);
+            this.gbAirport.Controls.Add(this.tbAirportCity);
+            this.gbAirport.Controls.Add(this.tbAirportName);
+            this.gbAirport.Controls.Add(this.label46);
+            this.gbAirport.Controls.Add(this.label45);
+            this.gbAirport.Controls.Add(this.label44);
+            this.gbAirport.Controls.Add(this.btnAddAirport);
+            this.gbAirport.Controls.Add(this.btnDeleteAirport);
+            this.gbAirport.Controls.Add(this.btnArchiveAirport);
+            this.gbAirport.Controls.Add(this.lbAirport);
+            this.gbAirport.Location = new System.Drawing.Point(448, 493);
+            this.gbAirport.Name = "gbAirport";
+            this.gbAirport.Size = new System.Drawing.Size(623, 321);
+            this.gbAirport.TabIndex = 17;
+            this.gbAirport.TabStop = false;
+            this.gbAirport.Text = "Airport";
+            // 
+            // lbAirport
+            // 
+            this.lbAirport.FormattingEnabled = true;
+            this.lbAirport.ItemHeight = 20;
+            this.lbAirport.Location = new System.Drawing.Point(18, 36);
+            this.lbAirport.Name = "lbAirport";
+            this.lbAirport.Size = new System.Drawing.Size(181, 264);
+            this.lbAirport.TabIndex = 0;
+            // 
+            // btnAddAirport
+            // 
+            this.btnAddAirport.Location = new System.Drawing.Point(223, 76);
+            this.btnAddAirport.Name = "btnAddAirport";
+            this.btnAddAirport.Size = new System.Drawing.Size(153, 36);
+            this.btnAddAirport.TabIndex = 7;
+            this.btnAddAirport.Text = "Add Airport";
+            this.btnAddAirport.UseVisualStyleBackColor = true;
+            // 
+            // btnDeleteAirport
+            // 
+            this.btnDeleteAirport.Location = new System.Drawing.Point(223, 188);
+            this.btnDeleteAirport.Name = "btnDeleteAirport";
+            this.btnDeleteAirport.Size = new System.Drawing.Size(153, 36);
+            this.btnDeleteAirport.TabIndex = 8;
+            this.btnDeleteAirport.Text = "Delete Airport";
+            this.btnDeleteAirport.UseVisualStyleBackColor = true;
+            // 
+            // btnArchiveAirport
+            // 
+            this.btnArchiveAirport.Location = new System.Drawing.Point(223, 137);
+            this.btnArchiveAirport.Name = "btnArchiveAirport";
+            this.btnArchiveAirport.Size = new System.Drawing.Size(153, 36);
+            this.btnArchiveAirport.TabIndex = 9;
+            this.btnArchiveAirport.Text = "Archive Airport";
+            this.btnArchiveAirport.UseVisualStyleBackColor = true;
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(404, 53);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(102, 20);
+            this.label44.TabIndex = 10;
+            this.label44.Text = "Airport Name";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(404, 183);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(35, 20);
+            this.label45.TabIndex = 11;
+            this.label45.Text = "City";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(404, 114);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(47, 20);
+            this.label46.TabIndex = 12;
+            this.label46.Text = "Code";
+            // 
+            // tbAirportName
+            // 
+            this.tbAirportName.Location = new System.Drawing.Point(406, 76);
+            this.tbAirportName.Name = "tbAirportName";
+            this.tbAirportName.Size = new System.Drawing.Size(185, 26);
+            this.tbAirportName.TabIndex = 13;
+            // 
+            // tbAirportCity
+            // 
+            this.tbAirportCity.Location = new System.Drawing.Point(408, 206);
+            this.tbAirportCity.Name = "tbAirportCity";
+            this.tbAirportCity.Size = new System.Drawing.Size(183, 26);
+            this.tbAirportCity.TabIndex = 14;
+            // 
+            // tbAirportCode
+            // 
+            this.tbAirportCode.Location = new System.Drawing.Point(408, 137);
+            this.tbAirportCode.Name = "tbAirportCode";
+            this.tbAirportCode.Size = new System.Drawing.Size(183, 26);
+            this.tbAirportCode.TabIndex = 15;
+            // 
+            // gbPermission
+            // 
+            this.gbPermission.Controls.Add(this.button7);
+            this.gbPermission.Controls.Add(this.lbPermission);
+            this.gbPermission.Controls.Add(this.button8);
+            this.gbPermission.Location = new System.Drawing.Point(95, 429);
+            this.gbPermission.Name = "gbPermission";
+            this.gbPermission.Size = new System.Drawing.Size(311, 385);
+            this.gbPermission.TabIndex = 18;
+            this.gbPermission.TabStop = false;
+            this.gbPermission.Text = "Permission";
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(151, 328);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(113, 36);
+            this.button7.TabIndex = 1;
+            this.button7.Text = "Add type";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // lbPermission
+            // 
+            this.lbPermission.FormattingEnabled = true;
+            this.lbPermission.ItemHeight = 20;
+            this.lbPermission.Location = new System.Drawing.Point(19, 34);
+            this.lbPermission.Name = "lbPermission";
+            this.lbPermission.Size = new System.Drawing.Size(245, 284);
+            this.lbPermission.TabIndex = 0;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(19, 328);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(113, 36);
+            this.button8.TabIndex = 2;
+            this.button8.Text = "Delete type";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // cbUserAccessLevel
+            // 
+            this.cbUserAccessLevel.FormattingEnabled = true;
+            this.cbUserAccessLevel.Location = new System.Drawing.Point(234, 184);
+            this.cbUserAccessLevel.Name = "cbUserAccessLevel";
+            this.cbUserAccessLevel.Size = new System.Drawing.Size(245, 28);
+            this.cbUserAccessLevel.TabIndex = 16;
             // 
             // SettingsForm
             // 
@@ -1335,6 +1832,7 @@
             this.tabEmployee.ResumeLayout(false);
             this.tabEmployee.PerformLayout();
             this.tabUsers.ResumeLayout(false);
+            this.tabAirplanesAndAirports.ResumeLayout(false);
             this.gbSelectedTraining.ResumeLayout(false);
             this.gbSubjects.ResumeLayout(false);
             this.gbSubjects.PerformLayout();
@@ -1343,9 +1841,17 @@
             this.gbSelectedTopic.ResumeLayout(false);
             this.gbSelectedTopic.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbStudent)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEmployee)).EndInit();
             this.gbExistingUsers.ResumeLayout(false);
             this.gbExistingUsers.PerformLayout();
+            this.gbAddUser.ResumeLayout(false);
+            this.gbAddUser.PerformLayout();
+            this.gbAirplane.ResumeLayout(false);
+            this.gbAirplane.PerformLayout();
+            this.gbAirplaneType.ResumeLayout(false);
+            this.gbAirport.ResumeLayout(false);
+            this.gbAirport.PerformLayout();
+            this.gbPermission.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1370,65 +1876,65 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button btnEditExercise;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Button btnAddExercise;
-        private System.Windows.Forms.Button btnArchiveExercise;
-        private System.Windows.Forms.Button btnDeleteExercise;
-        private System.Windows.Forms.ListBox lbExercise;
+        private System.Windows.Forms.Button btnTrainingExerciseEditExercise;
+        private System.Windows.Forms.TextBox tbTrainingExerciseDuration;
+        private System.Windows.Forms.TextBox tbTrainingExerciseNumberOfFlights;
+        private System.Windows.Forms.TextBox tbTrainingExerciseTypeOfAPilot;
+        private System.Windows.Forms.TextBox tbTrainingExerciseOrdinalNumber;
+        private System.Windows.Forms.TextBox tbTrainingExerciseContent;
+        private System.Windows.Forms.TextBox tbTrainingExerciseDescription;
+        private System.Windows.Forms.Button btnTrainingExerciseAddExercise;
+        private System.Windows.Forms.Button btnTrainingExerciseArchiveExercise;
+        private System.Windows.Forms.Button btnTrainingExerciseDeleteExercise;
+        private System.Windows.Forms.ListBox lbTrainingExerciseExercise;
         private System.Windows.Forms.GroupBox gbSubjects;
-        private System.Windows.Forms.Button btnEditTheory;
+        private System.Windows.Forms.Button btnTrainingSubjectsEditTheory;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Button btnArchiveTheory;
-        private System.Windows.Forms.Button btnDeleteTheory;
-        private System.Windows.Forms.Button btnAddTheory;
-        private System.Windows.Forms.Button btnDeleteTraining;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button btnAddTraining;
+        private System.Windows.Forms.TextBox tbTrainingSubjectPPT;
+        private System.Windows.Forms.TextBox tbTrainingSubjectNumberOfTests;
+        private System.Windows.Forms.TextBox tbTrainingSubjectDescription;
+        private System.Windows.Forms.TextBox tbTrainingSubjectNumberOfClasses;
+        private System.Windows.Forms.TextBox tbTrainingSubjectName;
+        private System.Windows.Forms.ListBox lbTrainingSubjects;
+        private System.Windows.Forms.Button btnTrainingSubjectsArchiveTheory;
+        private System.Windows.Forms.Button btnTrainingSubjectsDeleteTheory;
+        private System.Windows.Forms.Button btnTrainingSubjectsAddTheory;
+        private System.Windows.Forms.Button btnTrainingDeleteTraining;
+        private System.Windows.Forms.Button btnTrainingArchiveTraining;
+        private System.Windows.Forms.Button btnTrainingAddTraining;
         private System.Windows.Forms.GroupBox gbSelectedTopic;
-        private System.Windows.Forms.Button btnEditTopic;
+        private System.Windows.Forms.Button btnTrainingSelectedTopicEditTopic;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.Button btnAddTopic;
-        private System.Windows.Forms.Button btnArchiveTopic;
-        private System.Windows.Forms.Button btnDeleteTopic;
-        private System.Windows.Forms.ListBox lbSubjects;
+        private System.Windows.Forms.TextBox tbTrainingSelectedTopicNumberOfClasses;
+        private System.Windows.Forms.TextBox tbTrainingSelectedTopicOrdinalNumber;
+        private System.Windows.Forms.TextBox tbTrainingSelectedTopicDescription;
+        private System.Windows.Forms.TextBox tbTrainingSelectedTopicName;
+        private System.Windows.Forms.Button btnTrainingSelectedTopicAddTopic;
+        private System.Windows.Forms.Button btnTrainingSelectedTopicArchiveTopic;
+        private System.Windows.Forms.Button btnTrainingSelectedTopicDeleteTopic;
+        private System.Windows.Forms.ListBox lbTrainingSelectedTopicSubjects;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Button btnEditStudent;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.Button btnStudentEditStudent;
+        private System.Windows.Forms.TextBox tbStudentEMail;
+        private System.Windows.Forms.TextBox tbStudentPhoneNumber;
+        private System.Windows.Forms.TextBox tbStudentAdress;
+        private System.Windows.Forms.TextBox tbStudentSocialNumber;
+        private System.Windows.Forms.TextBox tbStudentName;
         private System.Windows.Forms.PictureBox pbStudent;
-        private System.Windows.Forms.Button btnDeleteStudent;
-        private System.Windows.Forms.Button btnAddStudent;
-        private System.Windows.Forms.ListBox lbStudent;
+        private System.Windows.Forms.Button btnStudentDeleteStudent;
+        private System.Windows.Forms.Button btnStudentAddStudent;
+        private System.Windows.Forms.ListBox lbStudentListOfStudents;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.ListBox lbGroupsStudents;
         private System.Windows.Forms.Label label26;
@@ -1440,37 +1946,83 @@
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label lblGroupsTraining;
-        private System.Windows.Forms.Button btnDeleteGroup;
+        private System.Windows.Forms.Button btnGroupDeleteGroup;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Button btnArchiveGroup;
-        private System.Windows.Forms.Button btnAddGroup;
+        private System.Windows.Forms.Button btnGroupArchiveGroup;
+        private System.Windows.Forms.Button btnGroupAddGroup;
         private System.Windows.Forms.ListBox lbGroupes;
-        private System.Windows.Forms.Button btnDeleteStudentSettings;
-        private System.Windows.Forms.Button btnAddStudentSettings;
+        private System.Windows.Forms.Button btnGroupDeleteStudentSettings;
+        private System.Windows.Forms.Button btnGroupAddStudentSettings;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.ListBox listBox3;
-        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.Button btnEmployeeDeauthorize;
+        private System.Windows.Forms.Button btnEmployeeAuthorize;
+        private System.Windows.Forms.ListBox lbLicencedSubjects;
+        private System.Windows.Forms.TextBox tbEmployeeSchool;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox tbEmployeeEMial;
+        private System.Windows.Forms.TextBox tbEmployeePhoneNumber;
+        private System.Windows.Forms.TextBox tbEmployeeAdress;
+        private System.Windows.Forms.TextBox tbEmployeeSocialNumber;
+        private System.Windows.Forms.TextBox tbEmployeeName;
+        private System.Windows.Forms.PictureBox pbEmployee;
+        private System.Windows.Forms.Button btnEmployeeDeleteGroup;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button btnEmployeeArchiveGroup;
+        private System.Windows.Forms.Button btnEmployeeAddGroup;
+        private System.Windows.Forms.ListBox lbEmployeeListOfGroups;
+        private System.Windows.Forms.GroupBox gbAddUser;
         private System.Windows.Forms.GroupBox gbExistingUsers;
-        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.Button btnUserDelete;
+        private System.Windows.Forms.Button btnUserEdit;
+        private System.Windows.Forms.TextBox tbUsersPassword;
+        private System.Windows.Forms.TextBox tbUsersUsername;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.ListBox lbUsersAdminList;
+        private System.Windows.Forms.ComboBox cbUserAddUserAccessLevel;
+        private System.Windows.Forms.TextBox tbUserAddUserPassword;
+        private System.Windows.Forms.TextBox tbUserAddUserUsername;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Button btnUserAdd;
+        private System.Windows.Forms.GroupBox gbAirport;
+        private System.Windows.Forms.GroupBox gbAirplaneType;
+        private System.Windows.Forms.Button btnAddAirplaneType;
+        private System.Windows.Forms.ListBox lbAirplaneType;
+        private System.Windows.Forms.Button btnAirplaneTypeDelete;
+        private System.Windows.Forms.GroupBox gbAirplane;
+        private System.Windows.Forms.ListBox lbAirplaneList;
+        private System.Windows.Forms.Button btnEditAirplane;
+        private System.Windows.Forms.Button btnAirplane;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Button btnDeleteAirplane;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Button btnArchiveAirplane;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.TextBox tbAirplaneName;
+        private System.Windows.Forms.ComboBox cbAirplaneType;
+        private System.Windows.Forms.TextBox tbAirplaneRegistration;
+        private System.Windows.Forms.GroupBox gbPermission;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.ListBox lbPermission;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.TextBox tbAirportCode;
+        private System.Windows.Forms.TextBox tbAirportCity;
+        private System.Windows.Forms.TextBox tbAirportName;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Button btnAddAirport;
+        private System.Windows.Forms.Button btnDeleteAirport;
+        private System.Windows.Forms.Button btnArchiveAirport;
+        private System.Windows.Forms.ListBox lbAirport;
+        private System.Windows.Forms.ComboBox cbUserAccessLevel;
     }
 }

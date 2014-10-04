@@ -15,5 +15,25 @@ namespace FSMS
         {
             InitializeComponent();
         }
+
+        private void label36_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox13_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEmployeeAddGroupSubjects_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
