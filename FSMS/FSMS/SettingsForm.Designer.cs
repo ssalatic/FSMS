@@ -57,7 +57,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.btnChangeTheory = new System.Windows.Forms.Button();
+            this.btnEditTheory = new System.Windows.Forms.Button();
             this.gbExercise = new System.Windows.Forms.GroupBox();
             this.lbExercise = new System.Windows.Forms.ListBox();
             this.btnDeleteExercise = new System.Windows.Forms.Button();
@@ -69,7 +69,7 @@
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
-            this.btnChangeExercise = new System.Windows.Forms.Button();
+            this.btnEditExercise = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -77,7 +77,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.gbSelectedTopic = new System.Windows.Forms.GroupBox();
-            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.lbSubjects = new System.Windows.Forms.ListBox();
             this.btnDeleteTopic = new System.Windows.Forms.Button();
             this.btnArchiveTopic = new System.Windows.Forms.Button();
             this.btnAddTopic = new System.Windows.Forms.Button();
@@ -89,13 +89,73 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.btnChangeTopic = new System.Windows.Forms.Button();
+            this.btnEditTopic = new System.Windows.Forms.Button();
+            this.lbStudent = new System.Windows.Forms.ListBox();
+            this.btnAddStudent = new System.Windows.Forms.Button();
+            this.btnDeleteStudent = new System.Windows.Forms.Button();
+            this.pbStudent = new System.Windows.Forms.PictureBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.btnEditStudent = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.btnArchiveGroup = new System.Windows.Forms.Button();
+            this.btnAddGroup = new System.Windows.Forms.Button();
+            this.lbGroupes = new System.Windows.Forms.ListBox();
+            this.btnDeleteGroup = new System.Windows.Forms.Button();
+            this.lblGroupsTraining = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.label25 = new System.Windows.Forms.Label();
+            this.rbtnExercise = new System.Windows.Forms.RadioButton();
+            this.rbtnTheretical = new System.Windows.Forms.RadioButton();
+            this.label26 = new System.Windows.Forms.Label();
+            this.lbGroupsStudents = new System.Windows.Forms.ListBox();
+            this.btnAddStudentSettings = new System.Windows.Forms.Button();
+            this.btnDeleteStudentSettings = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label27 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.listBox3 = new System.Windows.Forms.ListBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.label34 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabTraining.SuspendLayout();
+            this.tabStudent.SuspendLayout();
+            this.tabGroups.SuspendLayout();
+            this.tabEmployee.SuspendLayout();
             this.gbSelectedTraining.SuspendLayout();
             this.gbSubjects.SuspendLayout();
             this.gbExercise.SuspendLayout();
             this.gbSelectedTopic.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStudent)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -133,10 +193,26 @@
             // tabStudent
             // 
             this.tabStudent.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabStudent.Controls.Add(this.label21);
+            this.tabStudent.Controls.Add(this.label20);
+            this.tabStudent.Controls.Add(this.label19);
+            this.tabStudent.Controls.Add(this.label18);
+            this.tabStudent.Controls.Add(this.label17);
+            this.tabStudent.Controls.Add(this.label16);
+            this.tabStudent.Controls.Add(this.btnEditStudent);
+            this.tabStudent.Controls.Add(this.textBox20);
+            this.tabStudent.Controls.Add(this.textBox19);
+            this.tabStudent.Controls.Add(this.textBox18);
+            this.tabStudent.Controls.Add(this.textBox17);
+            this.tabStudent.Controls.Add(this.textBox16);
+            this.tabStudent.Controls.Add(this.pbStudent);
+            this.tabStudent.Controls.Add(this.btnDeleteStudent);
+            this.tabStudent.Controls.Add(this.btnAddStudent);
+            this.tabStudent.Controls.Add(this.lbStudent);
             this.tabStudent.Location = new System.Drawing.Point(4, 29);
             this.tabStudent.Name = "tabStudent";
             this.tabStudent.Padding = new System.Windows.Forms.Padding(3);
-            this.tabStudent.Size = new System.Drawing.Size(1197, 751);
+            this.tabStudent.Size = new System.Drawing.Size(1219, 851);
             this.tabStudent.TabIndex = 1;
             this.tabStudent.Text = "Student";
             this.tabStudent.UseVisualStyleBackColor = true;
@@ -144,9 +220,26 @@
             // tabGroups
             // 
             this.tabGroups.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabGroups.Controls.Add(this.btnDeleteStudentSettings);
+            this.tabGroups.Controls.Add(this.btnAddStudentSettings);
+            this.tabGroups.Controls.Add(this.lbGroupsStudents);
+            this.tabGroups.Controls.Add(this.label26);
+            this.tabGroups.Controls.Add(this.rbtnTheretical);
+            this.tabGroups.Controls.Add(this.rbtnExercise);
+            this.tabGroups.Controls.Add(this.label25);
+            this.tabGroups.Controls.Add(this.dateTimePicker2);
+            this.tabGroups.Controls.Add(this.dateTimePicker1);
+            this.tabGroups.Controls.Add(this.label24);
+            this.tabGroups.Controls.Add(this.label23);
+            this.tabGroups.Controls.Add(this.lblGroupsTraining);
+            this.tabGroups.Controls.Add(this.btnDeleteGroup);
+            this.tabGroups.Controls.Add(this.label22);
+            this.tabGroups.Controls.Add(this.btnArchiveGroup);
+            this.tabGroups.Controls.Add(this.btnAddGroup);
+            this.tabGroups.Controls.Add(this.lbGroupes);
             this.tabGroups.Location = new System.Drawing.Point(4, 29);
             this.tabGroups.Name = "tabGroups";
-            this.tabGroups.Size = new System.Drawing.Size(1197, 751);
+            this.tabGroups.Size = new System.Drawing.Size(1219, 851);
             this.tabGroups.TabIndex = 2;
             this.tabGroups.Text = "Groups";
             this.tabGroups.UseVisualStyleBackColor = true;
@@ -154,9 +247,31 @@
             // tabEmployee
             // 
             this.tabEmployee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabEmployee.Controls.Add(this.label34);
+            this.tabEmployee.Controls.Add(this.button6);
+            this.tabEmployee.Controls.Add(this.button5);
+            this.tabEmployee.Controls.Add(this.listBox3);
+            this.tabEmployee.Controls.Add(this.textBox26);
+            this.tabEmployee.Controls.Add(this.label33);
+            this.tabEmployee.Controls.Add(this.label28);
+            this.tabEmployee.Controls.Add(this.label29);
+            this.tabEmployee.Controls.Add(this.label30);
+            this.tabEmployee.Controls.Add(this.label31);
+            this.tabEmployee.Controls.Add(this.label32);
+            this.tabEmployee.Controls.Add(this.textBox21);
+            this.tabEmployee.Controls.Add(this.textBox22);
+            this.tabEmployee.Controls.Add(this.textBox23);
+            this.tabEmployee.Controls.Add(this.textBox24);
+            this.tabEmployee.Controls.Add(this.textBox25);
+            this.tabEmployee.Controls.Add(this.pictureBox1);
+            this.tabEmployee.Controls.Add(this.button1);
+            this.tabEmployee.Controls.Add(this.label27);
+            this.tabEmployee.Controls.Add(this.button3);
+            this.tabEmployee.Controls.Add(this.button4);
+            this.tabEmployee.Controls.Add(this.listBox2);
             this.tabEmployee.Location = new System.Drawing.Point(4, 29);
             this.tabEmployee.Name = "tabEmployee";
-            this.tabEmployee.Size = new System.Drawing.Size(1197, 751);
+            this.tabEmployee.Size = new System.Drawing.Size(1219, 851);
             this.tabEmployee.TabIndex = 3;
             this.tabEmployee.Text = "Employee";
             this.tabEmployee.UseVisualStyleBackColor = true;
@@ -286,7 +401,7 @@
             // 
             // gbSubjects
             // 
-            this.gbSubjects.Controls.Add(this.btnChangeTheory);
+            this.gbSubjects.Controls.Add(this.btnEditTheory);
             this.gbSubjects.Controls.Add(this.label5);
             this.gbSubjects.Controls.Add(this.label4);
             this.gbSubjects.Controls.Add(this.label3);
@@ -388,14 +503,14 @@
             this.label5.TabIndex = 14;
             this.label5.Text = "PPT";
             // 
-            // btnChangeTheory
+            // btnEditTheory
             // 
-            this.btnChangeTheory.Location = new System.Drawing.Point(210, 312);
-            this.btnChangeTheory.Name = "btnChangeTheory";
-            this.btnChangeTheory.Size = new System.Drawing.Size(154, 38);
-            this.btnChangeTheory.TabIndex = 15;
-            this.btnChangeTheory.Text = "Change Theory";
-            this.btnChangeTheory.UseVisualStyleBackColor = true;
+            this.btnEditTheory.Location = new System.Drawing.Point(210, 312);
+            this.btnEditTheory.Name = "btnEditTheory";
+            this.btnEditTheory.Size = new System.Drawing.Size(154, 38);
+            this.btnEditTheory.TabIndex = 15;
+            this.btnEditTheory.Text = "Edit Theory";
+            this.btnEditTheory.UseVisualStyleBackColor = true;
             // 
             // gbExercise
             // 
@@ -405,7 +520,7 @@
             this.gbExercise.Controls.Add(this.label8);
             this.gbExercise.Controls.Add(this.label7);
             this.gbExercise.Controls.Add(this.label6);
-            this.gbExercise.Controls.Add(this.btnChangeExercise);
+            this.gbExercise.Controls.Add(this.btnEditExercise);
             this.gbExercise.Controls.Add(this.textBox11);
             this.gbExercise.Controls.Add(this.textBox10);
             this.gbExercise.Controls.Add(this.textBox9);
@@ -501,14 +616,14 @@
             this.textBox11.Size = new System.Drawing.Size(154, 26);
             this.textBox11.TabIndex = 11;
             // 
-            // btnChangeExercise
+            // btnEditExercise
             // 
-            this.btnChangeExercise.Location = new System.Drawing.Point(193, 357);
-            this.btnChangeExercise.Name = "btnChangeExercise";
-            this.btnChangeExercise.Size = new System.Drawing.Size(154, 38);
-            this.btnChangeExercise.TabIndex = 16;
-            this.btnChangeExercise.Text = "Change Exercise";
-            this.btnChangeExercise.UseVisualStyleBackColor = true;
+            this.btnEditExercise.Location = new System.Drawing.Point(193, 357);
+            this.btnEditExercise.Name = "btnEditExercise";
+            this.btnEditExercise.Size = new System.Drawing.Size(154, 38);
+            this.btnEditExercise.TabIndex = 16;
+            this.btnEditExercise.Text = "Edit Exercise";
+            this.btnEditExercise.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
@@ -566,7 +681,7 @@
             // 
             // gbSelectedTopic
             // 
-            this.gbSelectedTopic.Controls.Add(this.btnChangeTopic);
+            this.gbSelectedTopic.Controls.Add(this.btnEditTopic);
             this.gbSelectedTopic.Controls.Add(this.label15);
             this.gbSelectedTopic.Controls.Add(this.label14);
             this.gbSelectedTopic.Controls.Add(this.label13);
@@ -578,7 +693,7 @@
             this.gbSelectedTopic.Controls.Add(this.btnAddTopic);
             this.gbSelectedTopic.Controls.Add(this.btnArchiveTopic);
             this.gbSelectedTopic.Controls.Add(this.btnDeleteTopic);
-            this.gbSelectedTopic.Controls.Add(this.listBox2);
+            this.gbSelectedTopic.Controls.Add(this.lbSubjects);
             this.gbSelectedTopic.Location = new System.Drawing.Point(48, 531);
             this.gbSelectedTopic.Name = "gbSelectedTopic";
             this.gbSelectedTopic.Size = new System.Drawing.Size(832, 243);
@@ -586,14 +701,14 @@
             this.gbSelectedTopic.TabStop = false;
             this.gbSelectedTopic.Text = "Selected Topic";
             // 
-            // listBox2
+            // lbSubjects
             // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.ItemHeight = 20;
-            this.listBox2.Location = new System.Drawing.Point(24, 46);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(141, 184);
-            this.listBox2.TabIndex = 0;
+            this.lbSubjects.FormattingEnabled = true;
+            this.lbSubjects.ItemHeight = 20;
+            this.lbSubjects.Location = new System.Drawing.Point(24, 46);
+            this.lbSubjects.Name = "lbSubjects";
+            this.lbSubjects.Size = new System.Drawing.Size(141, 184);
+            this.lbSubjects.TabIndex = 0;
             // 
             // btnDeleteTopic
             // 
@@ -686,14 +801,485 @@
             this.label15.TabIndex = 17;
             this.label15.Text = "Number of Classes";
             // 
-            // btnChangeTopic
+            // btnEditTopic
             // 
-            this.btnChangeTopic.Location = new System.Drawing.Point(497, 199);
-            this.btnChangeTopic.Name = "btnChangeTopic";
-            this.btnChangeTopic.Size = new System.Drawing.Size(243, 31);
-            this.btnChangeTopic.TabIndex = 18;
-            this.btnChangeTopic.Text = "Change Topic";
-            this.btnChangeTopic.UseVisualStyleBackColor = true;
+            this.btnEditTopic.Location = new System.Drawing.Point(497, 199);
+            this.btnEditTopic.Name = "btnEditTopic";
+            this.btnEditTopic.Size = new System.Drawing.Size(243, 31);
+            this.btnEditTopic.TabIndex = 18;
+            this.btnEditTopic.Text = "Edit Topic";
+            this.btnEditTopic.UseVisualStyleBackColor = true;
+            // 
+            // lbStudent
+            // 
+            this.lbStudent.FormattingEnabled = true;
+            this.lbStudent.ItemHeight = 20;
+            this.lbStudent.Location = new System.Drawing.Point(321, 153);
+            this.lbStudent.Name = "lbStudent";
+            this.lbStudent.Size = new System.Drawing.Size(237, 364);
+            this.lbStudent.TabIndex = 0;
+            // 
+            // btnAddStudent
+            // 
+            this.btnAddStudent.Location = new System.Drawing.Point(321, 540);
+            this.btnAddStudent.Name = "btnAddStudent";
+            this.btnAddStudent.Size = new System.Drawing.Size(237, 40);
+            this.btnAddStudent.TabIndex = 1;
+            this.btnAddStudent.Text = "Add Student";
+            this.btnAddStudent.UseVisualStyleBackColor = true;
+            // 
+            // btnDeleteStudent
+            // 
+            this.btnDeleteStudent.Location = new System.Drawing.Point(321, 595);
+            this.btnDeleteStudent.Name = "btnDeleteStudent";
+            this.btnDeleteStudent.Size = new System.Drawing.Size(237, 40);
+            this.btnDeleteStudent.TabIndex = 2;
+            this.btnDeleteStudent.Text = "Delete Student";
+            this.btnDeleteStudent.UseVisualStyleBackColor = true;
+            // 
+            // pbStudent
+            // 
+            this.pbStudent.Location = new System.Drawing.Point(587, 113);
+            this.pbStudent.Name = "pbStudent";
+            this.pbStudent.Size = new System.Drawing.Size(237, 196);
+            this.pbStudent.TabIndex = 3;
+            this.pbStudent.TabStop = false;
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(587, 342);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(237, 26);
+            this.textBox16.TabIndex = 4;
+            // 
+            // textBox17
+            // 
+            this.textBox17.Location = new System.Drawing.Point(587, 394);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(237, 26);
+            this.textBox17.TabIndex = 5;
+            // 
+            // textBox18
+            // 
+            this.textBox18.Location = new System.Drawing.Point(587, 446);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(237, 26);
+            this.textBox18.TabIndex = 6;
+            // 
+            // textBox19
+            // 
+            this.textBox19.Location = new System.Drawing.Point(587, 502);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(237, 26);
+            this.textBox19.TabIndex = 7;
+            // 
+            // textBox20
+            // 
+            this.textBox20.Location = new System.Drawing.Point(587, 554);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(237, 26);
+            this.textBox20.TabIndex = 8;
+            // 
+            // btnEditStudent
+            // 
+            this.btnEditStudent.Location = new System.Drawing.Point(587, 595);
+            this.btnEditStudent.Name = "btnEditStudent";
+            this.btnEditStudent.Size = new System.Drawing.Size(237, 40);
+            this.btnEditStudent.TabIndex = 9;
+            this.btnEditStudent.Text = "Edit Student";
+            this.btnEditStudent.UseVisualStyleBackColor = true;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(583, 317);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(51, 20);
+            this.label16.TabIndex = 10;
+            this.label16.Text = "Name";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(583, 371);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(112, 20);
+            this.label17.TabIndex = 11;
+            this.label17.Text = "Social Number";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(583, 423);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(59, 20);
+            this.label18.TabIndex = 12;
+            this.label18.Text = "Adress";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(583, 475);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(115, 20);
+            this.label19.TabIndex = 13;
+            this.label19.Text = "Phone Number";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(583, 531);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(53, 20);
+            this.label20.TabIndex = 14;
+            this.label20.Text = "E-mail";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(317, 113);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(121, 20);
+            this.label21.TabIndex = 15;
+            this.label21.Text = "List of Students";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(331, 106);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(109, 20);
+            this.label22.TabIndex = 19;
+            this.label22.Text = "List of Groups";
+            // 
+            // btnArchiveGroup
+            // 
+            this.btnArchiveGroup.Location = new System.Drawing.Point(335, 625);
+            this.btnArchiveGroup.Name = "btnArchiveGroup";
+            this.btnArchiveGroup.Size = new System.Drawing.Size(237, 40);
+            this.btnArchiveGroup.TabIndex = 18;
+            this.btnArchiveGroup.Text = "Archive Group";
+            this.btnArchiveGroup.UseVisualStyleBackColor = true;
+            // 
+            // btnAddGroup
+            // 
+            this.btnAddGroup.Location = new System.Drawing.Point(335, 570);
+            this.btnAddGroup.Name = "btnAddGroup";
+            this.btnAddGroup.Size = new System.Drawing.Size(237, 40);
+            this.btnAddGroup.TabIndex = 17;
+            this.btnAddGroup.Text = "Add Group";
+            this.btnAddGroup.UseVisualStyleBackColor = true;
+            // 
+            // lbGroupes
+            // 
+            this.lbGroupes.FormattingEnabled = true;
+            this.lbGroupes.ItemHeight = 20;
+            this.lbGroupes.Location = new System.Drawing.Point(335, 146);
+            this.lbGroupes.Name = "lbGroupes";
+            this.lbGroupes.Size = new System.Drawing.Size(237, 404);
+            this.lbGroupes.TabIndex = 16;
+            // 
+            // btnDeleteGroup
+            // 
+            this.btnDeleteGroup.Location = new System.Drawing.Point(335, 682);
+            this.btnDeleteGroup.Name = "btnDeleteGroup";
+            this.btnDeleteGroup.Size = new System.Drawing.Size(237, 40);
+            this.btnDeleteGroup.TabIndex = 20;
+            this.btnDeleteGroup.Text = "Delete Group";
+            this.btnDeleteGroup.UseVisualStyleBackColor = true;
+            // 
+            // lblGroupsTraining
+            // 
+            this.lblGroupsTraining.AutoSize = true;
+            this.lblGroupsTraining.Location = new System.Drawing.Point(617, 106);
+            this.lblGroupsTraining.Name = "lblGroupsTraining";
+            this.lblGroupsTraining.Size = new System.Drawing.Size(122, 20);
+            this.lblGroupsTraining.TabIndex = 21;
+            this.lblGroupsTraining.Text = "Groups Training";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(621, 146);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(83, 20);
+            this.label23.TabIndex = 22;
+            this.label23.Text = "Start Date";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(621, 214);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(77, 20);
+            this.label24.TabIndex = 23;
+            this.label24.Text = "End Date";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(625, 170);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 26);
+            this.dateTimePicker1.TabIndex = 24;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(625, 237);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(200, 26);
+            this.dateTimePicker2.TabIndex = 25;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(621, 285);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(88, 20);
+            this.label25.TabIndex = 26;
+            this.label25.Text = "Group type";
+            // 
+            // rbtnExercise
+            // 
+            this.rbtnExercise.AutoSize = true;
+            this.rbtnExercise.Location = new System.Drawing.Point(625, 323);
+            this.rbtnExercise.Name = "rbtnExercise";
+            this.rbtnExercise.Size = new System.Drawing.Size(94, 24);
+            this.rbtnExercise.TabIndex = 27;
+            this.rbtnExercise.TabStop = true;
+            this.rbtnExercise.Text = "Exercise";
+            this.rbtnExercise.UseVisualStyleBackColor = true;
+            // 
+            // rbtnTheretical
+            // 
+            this.rbtnTheretical.AutoSize = true;
+            this.rbtnTheretical.Location = new System.Drawing.Point(625, 353);
+            this.rbtnTheretical.Name = "rbtnTheretical";
+            this.rbtnTheretical.Size = new System.Drawing.Size(112, 24);
+            this.rbtnTheretical.TabIndex = 28;
+            this.rbtnTheretical.TabStop = true;
+            this.rbtnTheretical.Text = "Theoretical";
+            this.rbtnTheretical.UseVisualStyleBackColor = true;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(625, 399);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(121, 20);
+            this.label26.TabIndex = 29;
+            this.label26.Text = "List of Students";
+            // 
+            // lbGroupsStudents
+            // 
+            this.lbGroupsStudents.FormattingEnabled = true;
+            this.lbGroupsStudents.ItemHeight = 20;
+            this.lbGroupsStudents.Location = new System.Drawing.Point(625, 442);
+            this.lbGroupsStudents.Name = "lbGroupsStudents";
+            this.lbGroupsStudents.Size = new System.Drawing.Size(237, 164);
+            this.lbGroupsStudents.TabIndex = 30;
+            // 
+            // btnAddStudentSettings
+            // 
+            this.btnAddStudentSettings.Location = new System.Drawing.Point(625, 625);
+            this.btnAddStudentSettings.Name = "btnAddStudentSettings";
+            this.btnAddStudentSettings.Size = new System.Drawing.Size(237, 40);
+            this.btnAddStudentSettings.TabIndex = 31;
+            this.btnAddStudentSettings.Text = "Add Student";
+            this.btnAddStudentSettings.UseVisualStyleBackColor = true;
+            // 
+            // btnDeleteStudentSettings
+            // 
+            this.btnDeleteStudentSettings.Location = new System.Drawing.Point(625, 682);
+            this.btnDeleteStudentSettings.Name = "btnDeleteStudentSettings";
+            this.btnDeleteStudentSettings.Size = new System.Drawing.Size(237, 40);
+            this.btnDeleteStudentSettings.TabIndex = 32;
+            this.btnDeleteStudentSettings.Text = "Delete Student";
+            this.btnDeleteStudentSettings.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(252, 775);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(237, 40);
+            this.button1.TabIndex = 25;
+            this.button1.Text = "Delete Group";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(248, 62);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(109, 20);
+            this.label27.TabIndex = 24;
+            this.label27.Text = "List of Groups";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(252, 718);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(237, 40);
+            this.button3.TabIndex = 23;
+            this.button3.Text = "Archive Group";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(252, 663);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(237, 40);
+            this.button4.TabIndex = 22;
+            this.button4.Text = "Add Group";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.ItemHeight = 20;
+            this.listBox2.Location = new System.Drawing.Point(252, 91);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(237, 544);
+            this.listBox2.TabIndex = 21;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(776, 91);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(250, 212);
+            this.pictureBox1.TabIndex = 26;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(510, 276);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(53, 20);
+            this.label28.TabIndex = 36;
+            this.label28.Text = "E-mail";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(510, 220);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(115, 20);
+            this.label29.TabIndex = 35;
+            this.label29.Text = "Phone Number";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(510, 168);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(59, 20);
+            this.label30.TabIndex = 34;
+            this.label30.Text = "Adress";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(510, 116);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(112, 20);
+            this.label31.TabIndex = 33;
+            this.label31.Text = "Social Number";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(510, 62);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(51, 20);
+            this.label32.TabIndex = 32;
+            this.label32.Text = "Name";
+            // 
+            // textBox21
+            // 
+            this.textBox21.Location = new System.Drawing.Point(514, 299);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(237, 26);
+            this.textBox21.TabIndex = 31;
+            // 
+            // textBox22
+            // 
+            this.textBox22.Location = new System.Drawing.Point(514, 247);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(237, 26);
+            this.textBox22.TabIndex = 30;
+            // 
+            // textBox23
+            // 
+            this.textBox23.Location = new System.Drawing.Point(514, 191);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(237, 26);
+            this.textBox23.TabIndex = 29;
+            // 
+            // textBox24
+            // 
+            this.textBox24.Location = new System.Drawing.Point(514, 139);
+            this.textBox24.Name = "textBox24";
+            this.textBox24.Size = new System.Drawing.Size(237, 26);
+            this.textBox24.TabIndex = 28;
+            // 
+            // textBox25
+            // 
+            this.textBox25.Location = new System.Drawing.Point(514, 87);
+            this.textBox25.Name = "textBox25";
+            this.textBox25.Size = new System.Drawing.Size(237, 26);
+            this.textBox25.TabIndex = 27;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(510, 328);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(58, 20);
+            this.label33.TabIndex = 37;
+            this.label33.Text = "School";
+            // 
+            // textBox26
+            // 
+            this.textBox26.Location = new System.Drawing.Point(514, 351);
+            this.textBox26.Name = "textBox26";
+            this.textBox26.Size = new System.Drawing.Size(237, 26);
+            this.textBox26.TabIndex = 38;
+            // 
+            // listBox3
+            // 
+            this.listBox3.FormattingEnabled = true;
+            this.listBox3.ItemHeight = 20;
+            this.listBox3.Location = new System.Drawing.Point(514, 439);
+            this.listBox3.Name = "listBox3";
+            this.listBox3.Size = new System.Drawing.Size(237, 264);
+            this.listBox3.TabIndex = 39;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(514, 720);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(237, 40);
+            this.button5.TabIndex = 40;
+            this.button5.Text = "Add Group";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(514, 775);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(237, 40);
+            this.button6.TabIndex = 41;
+            this.button6.Text = "Add Group";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(510, 407);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(139, 20);
+            this.label34.TabIndex = 42;
+            this.label34.Text = "Licenced Subjects";
             // 
             // SettingsForm
             // 
@@ -709,6 +1295,12 @@
             this.tabControl1.ResumeLayout(false);
             this.tabTraining.ResumeLayout(false);
             this.tabTraining.PerformLayout();
+            this.tabStudent.ResumeLayout(false);
+            this.tabStudent.PerformLayout();
+            this.tabGroups.ResumeLayout(false);
+            this.tabGroups.PerformLayout();
+            this.tabEmployee.ResumeLayout(false);
+            this.tabEmployee.PerformLayout();
             this.gbSelectedTraining.ResumeLayout(false);
             this.gbSubjects.ResumeLayout(false);
             this.gbSubjects.PerformLayout();
@@ -716,6 +1308,8 @@
             this.gbExercise.PerformLayout();
             this.gbSelectedTopic.ResumeLayout(false);
             this.gbSelectedTopic.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStudent)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -740,7 +1334,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button btnChangeExercise;
+        private System.Windows.Forms.Button btnEditExercise;
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.TextBox textBox9;
@@ -752,7 +1346,7 @@
         private System.Windows.Forms.Button btnDeleteExercise;
         private System.Windows.Forms.ListBox lbExercise;
         private System.Windows.Forms.GroupBox gbSubjects;
-        private System.Windows.Forms.Button btnChangeTheory;
+        private System.Windows.Forms.Button btnEditTheory;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
@@ -771,7 +1365,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnAddTraining;
         private System.Windows.Forms.GroupBox gbSelectedTopic;
-        private System.Windows.Forms.Button btnChangeTopic;
+        private System.Windows.Forms.Button btnEditTopic;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
@@ -783,6 +1377,61 @@
         private System.Windows.Forms.Button btnAddTopic;
         private System.Windows.Forms.Button btnArchiveTopic;
         private System.Windows.Forms.Button btnDeleteTopic;
+        private System.Windows.Forms.ListBox lbSubjects;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Button btnEditStudent;
+        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.PictureBox pbStudent;
+        private System.Windows.Forms.Button btnDeleteStudent;
+        private System.Windows.Forms.Button btnAddStudent;
+        private System.Windows.Forms.ListBox lbStudent;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.ListBox lbGroupsStudents;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.RadioButton rbtnTheretical;
+        private System.Windows.Forms.RadioButton rbtnExercise;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label lblGroupsTraining;
+        private System.Windows.Forms.Button btnDeleteGroup;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Button btnArchiveGroup;
+        private System.Windows.Forms.Button btnAddGroup;
+        private System.Windows.Forms.ListBox lbGroupes;
+        private System.Windows.Forms.Button btnDeleteStudentSettings;
+        private System.Windows.Forms.Button btnAddStudentSettings;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.TextBox textBox25;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.ListBox listBox2;
     }
 }
