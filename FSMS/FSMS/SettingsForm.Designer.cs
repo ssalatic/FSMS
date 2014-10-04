@@ -145,17 +145,22 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.label34 = new System.Windows.Forms.Label();
+            this.gbExistingUsers = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.textBox27 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabTraining.SuspendLayout();
             this.tabStudent.SuspendLayout();
             this.tabGroups.SuspendLayout();
             this.tabEmployee.SuspendLayout();
+            this.tabUsers.SuspendLayout();
             this.gbSelectedTraining.SuspendLayout();
             this.gbSubjects.SuspendLayout();
             this.gbExercise.SuspendLayout();
             this.gbSelectedTopic.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbStudent)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.gbExistingUsers.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -279,9 +284,11 @@
             // tabUsers
             // 
             this.tabUsers.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabUsers.Controls.Add(this.groupBox2);
+            this.tabUsers.Controls.Add(this.gbExistingUsers);
             this.tabUsers.Location = new System.Drawing.Point(4, 29);
             this.tabUsers.Name = "tabUsers";
-            this.tabUsers.Size = new System.Drawing.Size(1197, 751);
+            this.tabUsers.Size = new System.Drawing.Size(1219, 851);
             this.tabUsers.TabIndex = 4;
             this.tabUsers.Text = "Users";
             this.tabUsers.UseVisualStyleBackColor = true;
@@ -1281,6 +1288,32 @@
             this.label34.TabIndex = 42;
             this.label34.Text = "Licenced Subjects";
             // 
+            // gbExistingUsers
+            // 
+            this.gbExistingUsers.Controls.Add(this.textBox27);
+            this.gbExistingUsers.Location = new System.Drawing.Point(149, 274);
+            this.gbExistingUsers.Name = "gbExistingUsers";
+            this.gbExistingUsers.Size = new System.Drawing.Size(574, 349);
+            this.gbExistingUsers.TabIndex = 0;
+            this.gbExistingUsers.TabStop = false;
+            this.gbExistingUsers.Text = "Existing Users";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Location = new System.Drawing.Point(745, 274);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(200, 100);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "groupBox2";
+            // 
+            // textBox27
+            // 
+            this.textBox27.Location = new System.Drawing.Point(17, 39);
+            this.textBox27.Name = "textBox27";
+            this.textBox27.Size = new System.Drawing.Size(208, 26);
+            this.textBox27.TabIndex = 0;
+            // 
             // SettingsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -1301,6 +1334,7 @@
             this.tabGroups.PerformLayout();
             this.tabEmployee.ResumeLayout(false);
             this.tabEmployee.PerformLayout();
+            this.tabUsers.ResumeLayout(false);
             this.gbSelectedTraining.ResumeLayout(false);
             this.gbSubjects.ResumeLayout(false);
             this.gbSubjects.PerformLayout();
@@ -1310,6 +1344,8 @@
             this.gbSelectedTopic.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbStudent)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.gbExistingUsers.ResumeLayout(false);
+            this.gbExistingUsers.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1433,5 +1469,8 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox gbExistingUsers;
+        private System.Windows.Forms.TextBox textBox27;
     }
 }
